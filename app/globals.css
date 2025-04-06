@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 10% 45%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 10% 45%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 10% 45%;
+  --primary: 0 15% 52%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 15% 68%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 36 30% 94%;
+  --muted-foreground: 20 10% 45%;
+  --accent: 0 15% 78%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 85% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 36 30% 90%;
+  --input: 36 30% 90%;
+  --ring: 0 15% 52%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 20 10% 10%;
+  --foreground: 0 0% 98%;
+  --card: 20 10% 10%;
+  --card-foreground: 0 0% 98%;
+  --popover: 20 10% 10%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 0 15% 52%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 15% 68%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 20 10% 15%;
+  --muted-foreground: 0 0% 70%;
+  --accent: 0 15% 78%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 20 10% 20%;
+  --input: 20 10% 20%;
+  --ring: 0 15% 52%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-white text-foreground;
+  }
+}
+
+@layer components {
+  .bg-taupe {
+    @apply bg-[#987070];
+  }
+  .text-taupe {
+    @apply text-[#987070];
+  }
+  .border-taupe {
+    @apply border-[#987070];
+  }
+
+  .bg-mauve {
+    @apply bg-[#C39898];
+  }
+  .text-mauve {
+    @apply text-[#C39898];
+  }
+  .border-mauve {
+    @apply border-[#C39898];
+  }
+
+  .bg-rose {
+    @apply bg-[#DBB5B5];
+  }
+  .text-rose {
+    @apply text-[#DBB5B5];
+  }
+  .border-rose {
+    @apply border-[#DBB5B5];
+  }
+
+  .bg-cream {
+    @apply bg-[#F1E5D1];
+  }
+  .text-cream {
+    @apply text-[#F1E5D1];
+  }
+  .border-cream {
+    @apply border-[#F1E5D1];
+  }
+
+  .btn-taupe {
+    @apply bg-[#987070] text-white hover:bg-[#876060] transition-colors;
+  }
+
+  .btn-outline-taupe {
+    @apply border border-[#987070] text-[#987070] hover:bg-[#987070] hover:text-white transition-colors;
+  }
+
+  .btn-mauve {
+    @apply bg-[#C39898] text-white hover:bg-[#B38888] transition-colors;
+  }
+
+  .btn-outline-mauve {
+    @apply border border-[#C39898] text-[#C39898] hover:bg-[#C39898] hover:text-white transition-colors;
+  }
+
+  .section-cream {
+    @apply bg-[#F1E5D1] text-[#987070];
+  }
+
+  .heading-taupe {
+    @apply text-[#987070] font-bold;
+  }
+
+  .heading-mauve {
+    @apply text-[#C39898] font-bold;
+  }
+}
+
