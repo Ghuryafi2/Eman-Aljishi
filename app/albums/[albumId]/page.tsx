@@ -56,7 +56,6 @@ export default function AlbumPage({ params }: { params: { albumId: string } }) {
         ))}
       </div>
       <Footer />
-
     </div>
   );
 }
@@ -511,97 +510,115 @@ const albums = [
     id: "tanaqud",
     title: "Bayn al-Zill wa al-Nur",
     description:
-      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
+      "Preliminary works, quick studies, and artistic explorations that capture moments of inspiration and technical practice.",
     items: [
       {
         id: "tanaqud_1",
-        title: "Forest Guardian",
+        title: "Figure Studies",
         description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
-        medium: "Digital Painting",
+        medium: "Pencil on Paper",
         year: "2023",
       },
       {
         id: "tanaqud_2",
-        title: "City of Dreams",
+        title: "Figure Studies",
         description:
-          "An imaginary cityscape floating among clouds, representing aspirations and the collective unconscious.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_2.jpg?height=600&width=800",
-        medium: "Watercolor and Ink",
-        year: "2022",
+        medium: "Pencil on Paper",
+        year: "2023",
       },
       {
         id: "tanaqud_3",
-        title: "The Traveler",
+        title: "Figure Studies",
         description:
-          "A wandering character journeying through strange lands, inspired by classic hero's journey narratives.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_3.jpg?height=600&width=800",
-        medium: "Digital Illustration",
+        medium: "Pencil on Paper",
         year: "2023",
       },
       {
         id: "tanaqud_4",
-        title: "The Ancient Library",
+        title: "Figure Studies",
         description:
-          "Interior scene of a vast magical library with impossible architecture and floating books.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_4.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        year: "2022",
+        medium: "Pencil on Paper",
+        year: "2023",
       },
       {
         id: "tanaqud_5",
-        title: "Seasons Change",
+        title: "Figure Studies",
         description:
-          "A character depicted through four seasonal transformations, representing personal growth and change.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_5.jpg?height=600&width=800",
-        medium: "Mixed Media",
-        year: "2021",
+        medium: "Pencil on Paper",
+        year: "2023",
       },
       {
         id: "tanaqud_6",
-        title: "Dream Weaver",
+        title: "Figure Studies",
         description:
-          "A mythical figure who creates dreams and nightmares, surrounded by symbolic imagery.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_6.jpg?height=600&width=800",
-        medium: "Digital Illustration",
+        medium: "Pencil on Paper",
         year: "2023",
       },
       {
         id: "tanaqud_7",
-        title: "Forest Guardian",
+        title: "Figure Studies",
         description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_7.jpg?height=600&width=800",
-        medium: "Digital Painting",
+        medium: "Pencil on Paper",
         year: "2023",
       },
       {
         id: "tanaqud_8",
-        title: "City of Dreams",
+        title: "Figure Studies",
         description:
-          "An imaginary cityscape floating among clouds, representing aspirations and the collective unconscious.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_8.jpg?height=600&width=800",
-        medium: "Watercolor and Ink",
-        year: "2022",
+        medium: "Pencil on Paper",
+        year: "2023",
       },
       {
         id: "tanaqud_9",
-        title: "The Traveler",
+        title: "Figure Studies",
         description:
-          "A wandering character journeying through strange lands, inspired by classic hero's journey narratives.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_9.jpg?height=600&width=800",
-        medium: "Digital Illustration",
+        medium: "Pencil on Paper",
         year: "2023",
       },
       {
         id: "tanaqud_10",
-        title: "The Ancient Library",
+        title: "Figure Studies",
         description:
-          "Interior scene of a vast magical library with impossible architecture and floating books.",
+          "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_10.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        year: "2022",
+        medium: "Pencil on Paper",
+        year: "2023",
+      },
+      {
+        id: "tanaqud_11",
+        title: "Figure Studies",
+        description:
+          "A series of quick gesture drawings exploring human form and movement.",
+        image: "/tanaqud/tanaqud_11.jpg?height=600&width=800",
+        medium: "Pencil on Paper",
+        year: "2023",
+      },
+      {
+        id: "tanaqud_12",
+        title: "Figure Studies",
+        description:
+          "A series of quick gesture drawings exploring human form and movement.",
+        image: "/tanaqud/tanaqud_12.jpg?height=600&width=800",
+        medium: "Pencil on Paper",
+        year: "2023",
       },
     ],
   },
@@ -656,6 +673,6 @@ const albums = [
         medium: "Mixed Media",
         year: "2021",
       },
-    ]
-  }
+    ],
+  },
 ];

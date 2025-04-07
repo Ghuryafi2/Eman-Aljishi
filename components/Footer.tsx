@@ -19,7 +19,7 @@ const Footer = () => {
           <a href="mailto:emanaljishi@gmail.com" className="hover:text-rose transition-colors">
             <Mail size={24} />
           </a>
-          <Link href="https://www.linkedin.com/in/eman-aljishi-79002870/" target="_blank" className="hover:text-rose transition-colors">
+          <Link href="https://www.linkedin.com/in/eman-aljishi/" target="_blank" className="hover:text-rose transition-colors">
             <Linkedin size={24} />
           </Link>
         </div>

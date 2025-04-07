@@ -105,72 +105,6 @@ export default function ArtworkPage({
 
 const albums = [
   {
-    id: "contradictory",
-    title: "Contradictory",
-    description:
-      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
-    items: [
-      {
-        id: "forest-guardian",
-        title: "Forest Guardian",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        fullDescription:
-          "This illustration depicts a forest guardian entity, a spiritual protector of an ancient woodland. The character embodies the life force of the forest, with elements of both human and plant forms integrated into their design. The piece was inspired by folklore about forest spirits and environmental themes of protection and stewardship.",
-        process:
-          "I began with character sketches exploring different ways to blend human and plant elements. The final design incorporates flowing organic shapes with more structured human features. I used a limited color palette dominated by greens and earth tones to emphasize the connection to nature, with selective highlights to draw attention to the magical aspects of the character.",
-        image: "/tana.jpeg?height=1200&width=900",
-        medium: "Digital Painting",
-        year: "2023",
-      },
-      {
-        id: "city-of-dreams",
-        title: "City of Dreams",
-        description:
-          "An imaginary cityscape floating among clouds, representing aspirations and the collective unconscious.",
-        image: "/contradictory_2.jpeg?height=1200&width=900",
-        medium: "Watercolor and Ink",
-        year: "2022",
-      },
-      {
-        id: "traveler",
-        title: "The Traveler",
-        description:
-          "A wandering character journeying through strange lands, inspired by classic hero's journey narratives.",
-        image: "/placeholder.svg?height=1200&width=900",
-        medium: "Digital Illustration",
-        year: "2023",
-      },
-      {
-        id: "ancient-library",
-        title: "The Ancient Library",
-        description:
-          "Interior scene of a vast magical library with impossible architecture and floating books.",
-        image: "/placeholder.svg?height=1200&width=900",
-        medium: "Digital Painting",
-        year: "2022",
-      },
-      {
-        id: "seasons-change",
-        title: "Seasons Change",
-        description:
-          "A character depicted through four seasonal transformations, representing personal growth and change.",
-        image: "/placeholder.svg?height=1200&width=900",
-        medium: "Mixed Media",
-        year: "2021",
-      },
-      {
-        id: "dream-weaver",
-        title: "Dream Weaver",
-        description:
-          "A mythical figure who creates dreams and nightmares, surrounded by symbolic imagery.",
-        image: "/placeholder.svg?height=1200&width=900",
-        medium: "Digital Illustration",
-        year: "2023",
-      },
-    ],
-  },
-  {
     id: "labbaik",
     title: "Labbaik",
     description:
@@ -178,11 +112,12 @@ const albums = [
     items: [
       {
         id: "figure-studies",
-        title: "Figure Studies",
+        title: "Door of the Kaaba",
         description:
           "A series of quick gesture drawings exploring human form and movement.",
         image: "/labbaik/labbaik_1.jpg?height=1200&width=900",
-        medium: "Pencil on Paper",
+        medium: "Acrylic colors, pastes, inks, gesso, photo, paper on canvas",
+        dimensions: "100 x 100 cm",
         year: "2023",
       },
       {
@@ -708,6 +643,24 @@ const albums = [
         description:
           "A series of quick gesture drawings exploring human form and movement.",
         image: "/tanaqud/tanaqud_10.jpg?height=600&width=800",
+        medium: "Pencil on Paper",
+        year: "2023",
+      },
+      {
+        id: "tanaqud_11",
+        title: "Figure Studies",
+        description:
+          "A series of quick gesture drawings exploring human form and movement.",
+        image: "/tanaqud/tanaqud_11.jpg?height=600&width=800",
+        medium: "Pencil on Paper",
+        year: "2023",
+      },
+      {
+        id: "tanaqud_12",
+        title: "Figure Studies",
+        description:
+          "A series of quick gesture drawings exploring human form and movement.",
+        image: "/tanaqud/tanaqud_12.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
       },
