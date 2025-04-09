@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -72,47 +71,28 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
 
 const featuredAlbums = [
   {
+    id: "tanaqud",
+    title: "Iiltiqa",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
+  },
+  {
     id: "labbaik",
     title: "Labbaik",
-    description: "Preliminary works and artistic explorations",
+    description: "Preliminary works and explorations, capturing the spiritual journey.",
     coverImage: "/labbaik/labbaik_1.jpg?height=600&width=800",
-  },
-  {
-    id: "al_aquas",
-    title: "Al Aquas",
-    description: "Short stories and poetry complementing visual art",
-    coverImage: "/al_aquas/al_aquas_1.png?height=600&width=800",
-  },
-  {
-    id: "two_languages",
-    title: "Two languages",
-    description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/two_languages/two_languages_1.jpg?height=600&width=800",
   },
   {
     id: "hurufiaat",
     title: "Hurufiaat",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
-  },
-  {
-    id: "noqta",
-    title: "Noqta",
-    description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/noqta/noqta_1.jpg?height=600&width=800",
-  },
-  {
-    id: "tanaqud",
-    title: "Tanaqud",
-    description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
   },
   {
     id: "kufi_murabae",

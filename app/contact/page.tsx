@@ -1,67 +1,81 @@
-"use client"
+"use client";
 
-import type React from "react"
-
-import { useState } from "react"
-import { Send } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { useToast } from "@/hooks/use-toast"
+import type React from "react";
+import Link from "next/link";
+import { useState } from "react";
+import { ArrowLeft, Linkedin, Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { useToast } from "@/hooks/use-toast";
 
 export default function ContactPage() {
-  const { toast } = useToast()
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+    e.preventDefault();
+    setIsSubmitting(true);
 
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+    await new Promise((resolve) => setTimeout(resolve, 1500));
 
     toast({
       title: "Message sent!",
       description: "Thank you for your message. I'll get back to you soon.",
-    })
+    });
 
     setFormData({
       name: "",
       email: "",
       subject: "",
       message: "",
-    })
-    setIsSubmitting(false)
-  }
+    });
+    setIsSubmitting(false);
+  };
 
   return (
     <div className="container py-12 md:py-16 lg:py-24">
+      <div className="mb-8">
+        <Link href="/">
+          <button className="btn-outline-taupe px-4 py-2 rounded flex items-center">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Home
+          </button>
+        </Link>
+      </div>
       <div className="mx-auto max-w-4xl">
         <div className="space-y-4 text-center">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h1>
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Get in Touch
+          </h1>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            I'd love to hear from you! Whether you're interested in commissioning work, purchasing existing pieces, or
-            just want to say hello.
+            I'd love to hear from you! Whether you're interested in
+            commissioning work, purchasing existing pieces, or just want to say
+            hello.
           </p>
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl font-bold">Contact Information</h2>
-              <p className="mt-2 text-muted-foreground">Feel free to reach out through any of these channels.</p>
+              <p className="mt-2 text-muted-foreground">
+                Feel free to reach out through any of these channels.
+              </p>
             </div>
             <div className="space-y-4">
               <div className="flex items-start">
@@ -83,7 +97,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-medium">Phone</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    +966 50 481-3213
+                  </p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -106,7 +122,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-medium">Email</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">artist@example.com</p>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    emanaljishi@gmail.com
+                  </p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -141,27 +159,16 @@ export default function ContactPage() {
               <h3 className="text-xl font-medium">Social Media</h3>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/eman-aljishi/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded-full bg-accent p-2 text-foreground hover:bg-primary hover:text-primary-foreground"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5"
-                  >
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                  </svg>
-                  <span className="sr-only">Facebook</span>
+                  <Linkedin className="h-5 w-5" />
+                  <span className="sr-only">LinkedIn</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/emanaljishi"
                   className="rounded-full bg-accent p-2 text-foreground hover:bg-primary hover:text-primary-foreground"
                 >
                   <svg
@@ -182,26 +189,6 @@ export default function ContactPage() {
                   </svg>
                   <span className="sr-only">Instagram</span>
                 </a>
-                <a
-                  href="#"
-                  className="rounded-full bg-accent p-2 text-foreground hover:bg-primary hover:text-primary-foreground"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5"
-                  >
-                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-                  </svg>
-                  <span className="sr-only">Twitter</span>
-                </a>
               </div>
             </div>
           </div>
@@ -209,15 +196,34 @@ export default function ContactPage() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
                 <Label htmlFor="name">Name</Label>
-                <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
+                <Input
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="subject">Subject</Label>
-                <Input id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
+                <Input
+                  id="subject"
+                  name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
+                  required
+                />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="message">Message</Label>
@@ -239,6 +245,5 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-

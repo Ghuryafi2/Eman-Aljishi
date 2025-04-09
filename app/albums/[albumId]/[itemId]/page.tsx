@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
-import Footer from "@/components/Footer";
 
 export default function ArtworkPage({
   params,
@@ -74,7 +73,6 @@ export default function ArtworkPage({
               About this piece
             </h2>
             <p className="text-taupe">{artwork.description}</p>
-            <p className="text-taupe">{artwork.fullDescription}</p>
           </div>
           <div className="pt-6 flex justify-between">
             {prevItem ? (
@@ -98,7 +96,6 @@ export default function ArtworkPage({
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
@@ -111,85 +108,154 @@ const albums = [
       "Preliminary works, quick studies, and artistic explorations that capture moments of inspiration and technical practice.",
     items: [
       {
-        id: "figure-studies",
+        id: "door-of-the-kaaba",
         title: "Door of the Kaaba",
         description:
-          "A series of quick gesture drawings exploring human form and movement.",
+          "A series of intimate visual studies capturing the sacred geometry, texture, and spiritual gravity of the Door of the Kaaba.",
         image: "/labbaik/labbaik_1.jpg?height=1200&width=900",
         medium: "Acrylic colors, pastes, inks, gesso, photo, paper on canvas",
         dimensions: "100 x 100 cm",
-        year: "2023",
+        year: "2020",
       },
       {
-        id: "urban-sketches",
-        title: "Urban Sketches",
+        id: "sujud",
+        title: "Sujud",
         description:
-          "On-location drawings of city scenes, capturing architecture and daily life.",
+          "A series of expressive sketches capturing the stillness, humility, and spiritual depth of Sujud.",
         image: "/labbaik/labbaik_2.jpg?height=1200&width=900",
-        medium: "Ink and Watercolor",
-        year: "2022",
+        medium: "Acrylic colors, pastes, inks, gesso, photo, paper on canvas",
+        dimensions: "100 x 100 cm",
+        year: "2020",
       },
       {
-        id: "character-concepts",
-        title: "Character Concepts",
+        id: "alrawdat-alsharifa",
+        title: "Alrawdat Alsharifa",
         description:
-          "Exploratory sketches developing character designs for a narrative project.",
+          "A series of serene compositions reflecting the tranquility, reverence, and sacred light within Al-Rawda Al-Sharifa.",
         image: "/labbaik/labbaik_3.jpg?height=1200&width=900",
-        medium: "Digital Sketches",
-        year: "2023",
+        medium: "Acrylic colors, pastes, inks, gesso, photo, paper on canvas",
+        dimensions: "80 x 80 cm",
+        year: "2020",
       },
       {
-        id: "nature-studies",
-        title: "Nature Studies",
+        id: "husn-alkhatima",
+        title: "Husn Alkhatima",
         description:
-          "Detailed observations of plants, trees, and natural elements.",
+          "A visual meditation on farewell, hope, and divine mercy — a journey toward Husn Al-Khatima.",
         image: "/labbaik/labbaik_4.jpg?height=1200&width=900",
-        medium: "Pencil and Colored Pencil",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "40 x 80 cm",
+        year: "2020",
+      },
+      {
+        id: "hamam-alharam",
+        title: "Hamam Alharam",
+        description:
+          "Gentle studies of Hamam Al-Haram in motion — symbols of peace, presence, and timeless belonging within the sacred sanctuary.",
+        image: "/labbaik/labbaik_5.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "40 x 80 cm",
+        year: "2020",
+      },
+      {
+        id: "ta'ammul",
+        title: "Ta'ammul",
+        description:
+          "Ta'ammul before the Kaaba — a quiet exploration of presence, surrender, and the stillness between heartbeats.",
+        image: "/labbaik/labbaik_6.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "40 x 80 cm",
+        year: "2020",
+      },
+      {
+        id: "almasjid-alnabawiu",
+        title: "Almasjid Alnabawiu",
+        description:
+          "A series of contemplative impressions capturing the light, rhythm, and sacred serenity of Al-Masjid Al-Nabawi.",
+        image: "/labbaik/labbaik_7.jpg?height=1200&width=900",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "80 x 80 cm",
+        year: "2020",
+      },
+      {
+        id: "tilawa",
+        title: "Tilawa",
+        description:
+          "A series of graceful studies of tilawa — capturing the flow, reverence, and divine connection within the sacred recitation of the Qur’an.",
+        image: "/labbaik/labbaik_8.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "70 x 50 cm",
+        year: "2020",
+      },
+      {
+        id: "altawaf",
+        title: "Altawaf",
+        description:
+          "A collection of fluid sketches capturing the unity, devotion, and spiritual rhythm of Al-Tawaf around the Kaaba.",
+        image: "/labbaik/labbaik_9.jpg?height=1200&width=900",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "70 x 50 cm",
+        year: "2020",
+      },
+      {
+        id: "mizab-alrahma",
+        title: "Mizab Alrahma",
+        description:
+          "A series of delicate studies focusing on the flow of blessings, captured in the divine grace of Mizab Al-Rahma.",
+        image: "/labbaik/labbaik_10.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "50 x 70 cm",
+        year: "2020",
+      },
+      {
+        id: "sumuu",
+        title: "Sumuu",
+        description:
+          "A collection of sketches reflecting the grandeur and elevation of spirit, captured in the essence of Sumuu.",
+        image: "/labbaik/labbaik_11.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "50 x 70 cm",
+        year: "2020",
+      },
+      {
+        id: "alqubat-alkhadra'",
+        title: "Alqubat Alkhadra'",
+        description:
+          "A series of serene studies capturing the elegance and spiritual significance of Al-Qubba Al-Khadra, a beacon of tranquility within Al-Masjid Al-Nabawi.",
+        image: "/labbaik/labbaik_12.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "100 x 100 cm",
         year: "2022",
       },
       {
-        id: "composition-experiments",
-        title: "Composition Experiments",
+        id: "nawafidh_1",
+        title: "Nawafidh 1",
         description:
-          "Abstract studies exploring balance, rhythm, and visual flow.",
-        image: "/labbaik/labbaik_5.jpg?height=1200&width=900",
-        medium: "Mixed Media",
+          "A collection of light-filled studies exploring the intricate beauty and divine illumination through Nawafidh 1 of Al-Masjid Al-Nabawi.",
+        image: "/labbaik/labbaik_13.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "100 x 70 cm",
         year: "2021",
       },
       {
-        id: "urban-sketches",
-        title: "Urban Sketches",
+        id: "nawafidh_2",
+        title: "Nawafidh 2",
         description:
-          "On-location drawings of city scenes, capturing architecture and daily life.",
-        image: "/labbaik/labbaik_6.jpg?height=1200&width=900",
-        medium: "Ink and Watercolor",
-        year: "2022",
-      },
-      {
-        id: "character-concepts",
-        title: "Character Concepts",
-        description:
-          "Exploratory sketches developing character designs for a narrative project.",
-        image: "/labbaik/labbaik_7.jpg?height=1200&width=900",
-        medium: "Digital Sketches",
-        year: "2023",
-      },
-      {
-        id: "nature-studies",
-        title: "Nature Studies",
-        description:
-          "Detailed observations of plants, trees, and natural elements.",
-        image: "/labbaik/labbaik_8.jpg?height=1200&width=900",
-        medium: "Pencil and Colored Pencil",
-        year: "2022",
-      },
-      {
-        id: "composition-experiments",
-        title: "Composition Experiments",
-        description:
-          "Abstract studies exploring balance, rhythm, and visual flow.",
-        image: "/labbaik/labbaik_9.jpg?height=1200&width=900",
-        medium: "Mixed Media",
+          "A collection of light-filled studies exploring the intricate beauty and divine illumination through Nawafidh 2 of Al-Masjid Al-Nabawi.",
+        image: "/labbaik/labbaik_14.jpg?height=600&width=800",
+        medium:
+          "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
+        dimensions: "100 x 70 cm",
         year: "2021",
       },
     ],
@@ -552,7 +618,7 @@ const albums = [
   },
   {
     id: "tanaqud",
-    title: "Bayn al-Zill wa al-Nur",
+    title: "Iiltiqa",
     description:
       "Preliminary works, quick studies, and artistic explorations that capture moments of inspiration and technical practice.",
     items: [

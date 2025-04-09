@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
-import Footer from "@/components/Footer";
 
 export default function AlbumsPage() {
   return (
@@ -46,20 +45,38 @@ export default function AlbumsPage() {
           </Link>
         ))}
       </div>
-      <Footer />
-
     </div>
   );
 }
 
 const albums = [
-  
+  {
+    id: "tanaqud",
+    title: "Iiltiqa",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
+    itemCount: 12,
+  },
   {
     id: "labbaik",
     title: "Labbaik",
-    description: "Preliminary works and artistic explorations",
+    description: "Preliminary works and explorations, capturing the spiritual journey.",
     coverImage: "/labbaik/labbaik_1.jpg?height=600&width=800",
-    itemCount: 9,
+    itemCount: 14,
+  },
+  {
+    id: "hurufiaat",
+    title: "Hurufiaat",
+    description: "Experimental works combining different techniques",
+    coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
+    itemCount: 7,
+  },
+  {
+    id: "kufi_murabae",
+    title: "Kufi Murabae",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/kufi_murabae/kufi_murabae_1.jpg?height=600&width=800",
+    itemCount: 5,
   },
   {
     id: "al_aquas",
@@ -75,33 +92,12 @@ const albums = [
     coverImage: "/two_languages/two_languages_1.jpg?height=600&width=800",
     itemCount: 4,
   },
-  {
-    id: "hurufiaat",
-    title: "Hurufiaat",
-    description: "Experimental works combining different techniques",
-    coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
-    itemCount: 7,
-  },
-  
+
   {
     id: "noqta",
     title: "Noqta",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/noqta/noqta_1.jpg?height=600&width=800",
     itemCount: 13,
-  },
-  {
-    id: "tanaqud",
-    title: "Bayn al-Zill wa al-Nur",
-    description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
-    itemCount: 10,
-  },
-  {
-    id: "kufi_murabae",
-    title: "Kufi Murabae",
-    description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/kufi_murabae/kufi_murabae_1.jpg?height=600&width=800",
-    itemCount: 5,
   },
 ];
