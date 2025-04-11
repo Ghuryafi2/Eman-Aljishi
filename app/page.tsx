@@ -79,25 +79,31 @@ const featuredAlbums = [
   {
     id: "tanaqud",
     title: "Iiltiqa",
-    description: "Acrylic and oil paintings on various subjects",
+    description:
+      "Calligraphy meets light and dark in a spiritual journey through divine names.",
     coverImage: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
+    itemCount: 12,
   },
   {
     id: "labbaik",
     title: "Labbaik",
-    description: "Preliminary works and explorations, capturing the spiritual journey.",
+    description:
+      "Preliminary works and explorations, capturing the spiritual journey.",
     coverImage: "/labbaik/labbaik_1.jpg?height=600&width=800",
+    itemCount: 14,
   },
   {
     id: "hurufiaat",
     title: "Hurufiaat",
-    description: "Acrylic and oil paintings on various subjects",
+    description: "Experimental works combining different techniques",
     coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
+    itemCount: 6,
   },
   {
     id: "kufi_murabae",
     title: "Kufi Murabae",
     description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/kufi_murabae/kufi_murabae_1.jpg?height=600&width=800",
+    coverImage: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
+    itemCount: 10,
   },
 ];

@@ -148,9 +148,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-medium">Studio Location</h3>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    123 Art Street, Creative District
-                    <br />
-                    City, State 12345
+                    Eastern Province, Saudi Arabia
                   </p>
                 </div>
               </div>
