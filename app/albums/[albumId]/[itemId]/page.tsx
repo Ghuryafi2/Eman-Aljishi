@@ -790,4 +790,829 @@ const albums = [
       },
     ],
   },
+  {
+    id: "watercolor",
+    title: "Watercolor",
+    description:
+      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
+    items: [
+      
+        {
+          id: "watercolor-1",
+          title: "Watercolor-1",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-1.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-10",
+          title: "Watercolor-10",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-10.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-11",
+          title: "Watercolor-11",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-11.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-12",
+          title: "Watercolor-12",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-12.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-13",
+          title: "Watercolor-13",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-13.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-14",
+          title: "Watercolor-14",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-14.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-15",
+          title: "Watercolor-15",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-15.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-16",
+          title: "Watercolor-16",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-16.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-17",
+          title: "Watercolor-17",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-17.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-18",
+          title: "Watercolor-18",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-18.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-19",
+          title: "Watercolor-19",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-19.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-2",
+          title: "Watercolor-2",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-2.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-20",
+          title: "Watercolor-20",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-20.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-21",
+          title: "Watercolor-21",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-21.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-22",
+          title: "Watercolor-22",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-22.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-23",
+          title: "Watercolor-23",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-23.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-24",
+          title: "Watercolor-24",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-24.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-25",
+          title: "Watercolor-25",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-25.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-26",
+          title: "Watercolor-26",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-26.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-27",
+          title: "Watercolor-27",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-27.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-28",
+          title: "Watercolor-28",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-28.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-29",
+          title: "Watercolor-29",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-29.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-3",
+          title: "Watercolor-3",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-3.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-4",
+          title: "Watercolor-4",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-4.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-5",
+          title: "Watercolor-5",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-5.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-6",
+          title: "Watercolor-6",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-6.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-7",
+          title: "Watercolor-7",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-7.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-8",
+          title: "Watercolor-8",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-8.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+      
+        {
+          id: "watercolor-9",
+          title: "Watercolor-9",
+          description:
+            "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+          image: "/watercolor/watercolor-9.jpg?height=600&width=800",
+          medium: "Digital Painting",
+          dimensions: "60 x 80 cm",
+          year: "2020",
+        },
+    ]
+  },
+  {
+    id: "tafasil",
+    title: "Tafasil",
+    description:
+      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
+    items: [
+      {
+        id: "tafasil-1",
+        title: "Tafasil-1",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-1.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-10",
+        title: "Tafasil-10",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-10.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-11",
+        title: "Tafasil-11",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-11.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-12",
+        title: "Tafasil-12",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-12.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-13",
+        title: "Tafasil-13",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-13.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-14",
+        title: "Tafasil-14",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-14.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-2",
+        title: "Tafasil-2",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-2.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-3",
+        title: "Tafasil-3",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-3.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-4",
+        title: "Tafasil-4",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-4.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-5",
+        title: "Tafasil-5",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-5.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-6",
+        title: "Tafasil-6",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-6.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-7",
+        title: "Tafasil-7",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-7.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-8",
+        title: "Tafasil-8",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-8.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    
+      {
+        id: "tafasil-9",
+        title: "Tafasil-9",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-9.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    ]
+  },
+  {
+    id: "rua",
+    title: "Rua",
+    description:
+      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
+    items: [
+      {
+        id: "rua-1",
+        title: "Rua-1",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-1.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-10",
+        title: "Rua-10",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-10.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-11",
+        title: "Rua-11",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-11.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-12",
+        title: "Rua-12",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-12.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-13",
+        title: "Rua-13",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-13.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-14",
+        title: "Rua-14",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-14.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-15",
+        title: "Rua-15",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-15.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-16",
+        title: "Rua-16",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-16.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-17",
+        title: "Rua-17",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-17.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-18",
+        title: "Rua-18",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-18.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-19",
+        title: "Rua-19",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-19.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-2",
+        title: "Rua-2",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-2.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-20",
+        title: "Rua-20",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-20.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-21",
+        title: "Rua-21",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-21.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-22",
+        title: "Rua-22",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-22.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-23",
+        title: "Rua-23",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-23.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-24",
+        title: "Rua-24",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-24.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-25",
+        title: "Rua-25",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-25.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-26",
+        title: "Rua-26",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-26.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-27",
+        title: "Rua-27",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-27.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-28",
+        title: "Rua-28",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-28.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-29",
+        title: "Rua-29",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-29.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-3",
+        title: "Rua-3",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-3.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-30",
+        title: "Rua-30",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-30.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-4",
+        title: "Rua-4",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-4.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-5",
+        title: "Rua-5",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-5.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-6",
+        title: "Rua-6",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-6.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-7",
+        title: "Rua-7",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-7.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-8",
+        title: "Rua-8",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-8.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+
+      {
+        id: "rua-9",
+        title: "Rua-9",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/rua/rua-9.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        dimensions: "60 x 80 cm",
+        year: "2018",
+      },
+    ],
+  },
 ];

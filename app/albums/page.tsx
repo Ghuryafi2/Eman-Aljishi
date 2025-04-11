@@ -100,4 +100,27 @@ const albums = [
     coverImage: "/noqta/noqta_1.jpg?height=600&width=800",
     itemCount: 13,
   },
+  {
+    id: "watercolor",
+    title: "Watercolor",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/watercolor/watercolor-1.jpg?height=600&width=800",
+    itemCount: 30,
+  },
+  {
+    id: "tafasil",
+    title: "Tafasil",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/tafasil/tafasil-1.jpg?height=600&width=800",
+    itemCount: 14,
+  },
+
+  {
+    id: "rua",
+    title: "Rua",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/rua/rua-1.jpg?height=600&width=800",
+    itemCount: 30,
+  }
+   
 ];
