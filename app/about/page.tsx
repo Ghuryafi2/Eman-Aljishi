@@ -20,79 +20,28 @@ export default function AboutPage() {
           </h1>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              Eman Al-Jishi is a pioneering Saudi visual artist, recognized for
-              her innovative contributions to contemporary Saudi art. Born in
-              1978 in Qatif, a culturally rich city in the eastern region of
-              Saudi Arabia, Eman grew up in a family steeped in artistic
-              traditions. Her upbringing surrounded by artists, poets, and
-              writers greatly influenced her artistic path. Despite having a
-              degree in geography, Eman did not pursue formal academic training
-              in the arts. Instead, she became a self-taught artist, acquiring
-              artistic knowledge through various workshops and courses, both in
-              Saudi Arabia and abroad. Notably, she studied Arabic calligraphy,
-              including the Thuluth, Diwani, and Kufi styles, and further honed
-              her skills at the Central Saint Martins University of Arts in
-              London in 2014.
+              Eman Al-Jishi is a pioneering Saudi visual artist from Qatif, born
+              in 1978, known for her innovative contributions to contemporary
+              Saudi art. Although she holds a degree in geography, she is a
+              self-taught artist who studied Arabic calligraphy and trained at
+              Central Saint Martins in London. Her work blends traditional
+              Arabic elements, especially calligraphy, with modern artistic
+              expression and themes of beauty, culture, and spirituality.
             </p>
             <p>
-              In addition to her art, Eman has worked as a beauty expert and
-              trainer, running her own center for many years. Her passion for
-              beauty and the art of enhancing women’s features has also
-              influenced her artistic work, where she combines fine art with
-              beauty expertise. This unique blend of artistic training and
-              professional experience reflects her belief in the transformative
-              power of art to elevate beauty in all forms.
+              In addition to being an artist, Eman has worked as a beauty expert
+              and trainer, integrating her understanding of aesthetics into her
+              artwork. She has held nine solo exhibitions, showcased her work
+              internationally in places like Rome, Sweden, and London, and
+              created public murals, including ones in Dammam and Al-Ula
+              Airport.
             </p>
             <p>
-              Eman’s works are deeply inspired by the local environment,
-              cultural heritage, and contemporary Arabic calligraphy. Her art
-              explores these themes through a spiritual and aesthetic lens,
-              blending traditional elements with modern artistic expressions.
-              She has participated in numerous art exhibitions both locally and
-              internationally, showcasing her work across a range of mediums.
-              Eman has held nine solo exhibitions, including the Labbaik
-              exhibition at Tajreed Gallery in Riyadh (2022), Noqta at Turath
-              El-Sehraa in Al-Khobar (2017), and Affaq Hurufiyya at Dama Art in
-              Jeddah (2011). Her work was also featured at the Saudi Embassy in
-              London in 2010, where she held a personal exhibition titled Ruaa.
-            </p>
-            <p>
-              In addition to her local exhibitions, Eman has represented Saudi
-              Arabia on several prestigious international platforms. Notably,
-              she participated in the Saudi Cultural Days in Rome, Italy, in
-              2013 and exhibited her works at the Konsthall-Betel Museum in
-              Sweden. Her murals have become prominent landmarks in her home
-              country, including a mural on the Dammam Corniche as part of the
-              Flash of Inscriptions initiative by the Eastern Province
-              Municipality. Her artworks also adorn the corridors of Al-Ula
-              Airport, adding a unique artistic touch to the public spaces.
-            </p>
-            <p>
-              Eman’s art has earned her several prestigious awards, both locally
-              and internationally. She was awarded the Iqtnaa Award in the
-              Contemporary Islamic Art Competition in 2011 and 2012 and received
-              third place in the International Burdah Award for calligraphy in
-              2017, held in the UAE. These accolades reflect the recognition of
-              her innovative work and her dedication to advancing the field of
-              Arabic calligraphy and Islamic art.
-            </p>
-            <p>
-              Throughout her career, Eman has worked tirelessly to raise the
-              artistic taste of society and to promote Saudi and Arab identity
-              through her art. She aims to make her work accessible to all,
-              conveying messages and values in a simple yet profound way that
-              resonates with a wide audience. Her art often reflects global
-              events and human emotions, using a contemporary style to bridge
-              the gap between the local and the global. For Eman, art is a
-              universal language that transcends boundaries of gender, race, or
-              color, and is a right for everyone to experience.
-            </p>
-            <p>
-              Eman Al-Jishi’s journey as an artist is marked by a relentless
-              pursuit of beauty and a commitment to exploring the depth of Saudi
-              and Arab culture through her visual language. Her work continues
-              to inspire audiences, both in Saudi Arabia and abroad, and she
-              remains a prominent figure in the contemporary art scene.
+              Eman has won several awards, including the Iqtnaa Award and the
+              International Burdah Award. Her mission is to elevate artistic
+              appreciation in society and to celebrate Saudi and Arab identity
+              through accessible, meaningful art. She views art as a universal
+              language that connects people across cultures and backgrounds.
             </p>
           </div>
           <div className="mt-8 space-y-4">
