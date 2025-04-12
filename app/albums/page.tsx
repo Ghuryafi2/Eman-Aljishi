@@ -133,10 +133,10 @@ const albums = [
     itemCount: 3,
   },
   {
-    id:"kulaj",
-    title: "Kulaj",
+    id:"collage",
+    title: "Collage",
     description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/kulaj/kulaj-1.jpg?height=600&width=800",
+    coverImage: "/collage/collage-1.jpg?height=600&width=800",
     itemCount: 8,
   }
 ];

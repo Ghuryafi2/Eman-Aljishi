@@ -921,63 +921,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-1.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "tafasil-10",
-        title: "Tafasil-10",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/tafasil/tafasil-10.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "tafasil-11",
-        title: "Tafasil-11",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/tafasil/tafasil-11.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "tafasil-12",
-        title: "Tafasil-12",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/tafasil/tafasil-12.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "tafasil-13",
-        title: "Tafasil-13",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/tafasil/tafasil-13.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "tafasil-14",
-        title: "Tafasil-14",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/tafasil/tafasil-14.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium:  "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "150 x 100 cm",
         year: "2018",
       },
 
@@ -987,8 +932,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-2.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "100 x 100 cm",
         year: "2018",
       },
 
@@ -998,8 +943,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-3.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "100 x 100 cm",
         year: "2018",
       },
 
@@ -1009,8 +954,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-4.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "100 x 100 cm",
         year: "2018",
       },
 
@@ -1020,8 +965,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-5.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "100 x 100 cm",
         year: "2018",
       },
 
@@ -1031,8 +976,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-6.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
+        dimensions: "40 x 220 cm",
         year: "2018",
       },
 
@@ -1042,8 +987,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-7.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
+        dimensions: "40 x 220 cm",
         year: "2018",
       },
 
@@ -1053,8 +998,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-8.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "100 x 100 cm",
         year: "2018",
       },
 
@@ -1064,8 +1009,63 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/tafasil/tafasil-9.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "70 x 170 cm",
+        year: "2018",
+      },
+
+      {
+        id: "tafasil-10",
+        title: "Tafasil-10",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-10.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "70 x 170 cm",
+        year: "2018",
+      },
+
+      {
+        id: "tafasil-11",
+        title: "Tafasil-11",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-11.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "50 x 50 cm",
+        year: "2018",
+      },
+
+      {
+        id: "tafasil-12",
+        title: "Tafasil-12",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-12.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
+        dimensions: "50 x 50 cm",
+        year: "2018",
+      },
+
+      {
+        id: "tafasil-13",
+        title: "Tafasil-13",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-13.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
+        dimensions: "70 x 70 cm",
+        year: "2018",
+      },
+
+      {
+        id: "tafasil-14",
+        title: "Tafasil-14",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/tafasil/tafasil-14.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
+        dimensions: "70 x 70 cm",
         year: "2018",
       },
     ],
@@ -1206,95 +1206,95 @@ const albums = [
     ],
   },
   {
-    id: "kulaj",
-    title: "Kulaj",
+    id: "collage",
+    title: "Collage",
     description:
       "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
     items: [
       {
-        id: "kulaj-1",
-        title: "Kulaj-1",
+        id: "collage-1",
+        title: "Collage-1",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-1.jpg?height=600&width=800",
+        image: "/collage/collage-1.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
 
       {
-        id: "kulaj-2",
-        title: "Kulaj-2",
+        id: "collage-2",
+        title: "Collage-2",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-2.jpg?height=600&width=800",
+        image: "/collage/collage-2.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
 
       {
-        id: "kulaj-3",
-        title: "Kulaj-3",
+        id: "collage-3",
+        title: "Collage-3",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-3.jpg?height=600&width=800",
-        medium: "Acrylic colors, pastes, colag, on canvas",
+        image: "/collage/collage-3.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
 
       {
-        id: "kulaj-4",
-        title: "Kulaj-4",
+        id: "collage-4",
+        title: "Collage-4",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-4.jpg?height=600&width=800",
-        medium: "Acrylic colors, pastes, colag, on canvas",
+        image: "/collage/collage-4.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
 
       {
-        id: "kulaj-5",
-        title: "Kulaj-5",
+        id: "collage-5",
+        title: "Collage-5",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-5.jpg?height=600&width=800",
-        medium: "Acrylic colors, pastes, colag, on canvas",
+        image: "/collage/collage-5.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
 
       {
-        id: "kulaj-6",
-        title: "Kulaj-6",
+        id: "collage-6",
+        title: "Collage-6",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-6.jpg?height=600&width=800",
-        medium: "Acrylic colors, pastes, colag, on canvas",
+        image: "/collage/collage-6.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
 
       {
-        id: "kulaj-7",
-        title: "Kulaj-7",
+        id: "collage-7",
+        title: "Collage-7",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-7.jpg?height=600&width=800",
-        medium: "Acrylic colors, pastes, colag, on canvas",
+        image: "/collage/collage-7.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
 
       {
-        id: "kulaj-8",
-        title: "Kulaj-8",
+        id: "collage-8",
+        title: "Collage-8",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/kulaj/kulaj-8.jpg?height=600&width=800",
-        medium: "Acrylic colors, pastes, colag, on canvas",
+        image: "/collage/collage-8.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
         dimensions: "40 x 40 cm",
         year: "2021",
       },
