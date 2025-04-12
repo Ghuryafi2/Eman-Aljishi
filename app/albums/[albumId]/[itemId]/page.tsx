@@ -269,132 +269,130 @@ const albums = [
       {
         id: "al_aquas_1",
         title: "Al Aquas 1",
-        description:
-          "A powerful portrayal of the Kaaba at Masjid al-Haram, symbolizing unity, faith, and the sacred journey of pilgrimage.",
+        description: "",
         image: "/al_aquas/al_aquas_1.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
+        dimensions: "70 x 42 cm",
         year: "2023",
       },
+
       {
         id: "al_aquas_2",
         title: "Al Aquas 2",
-        description:
-          "A powerful portrayal of the Kaaba at Masjid al-Haram, symbolizing unity, faith, and the sacred journey of pilgrimage.",
+        description: "",
         image: "/al_aquas/al_aquas_2.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2022",
+        dimensions: "70 x 42 cm",
+        year: "2023",
       },
+
       {
         id: "al_aquas_3",
         title: "Al Aquas 3",
-        description:
-          "A powerful portrayal of the Kaaba at Masjid al-Haram, symbolizing unity, faith, and the sacred journey of pilgrimage.",
+        description: "",
         image: "/al_aquas/al_aquas_3.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2021",
+        dimensions: "70 x 42 cm",
+        year: "2023",
       },
+
       {
         id: "al_aquas_4",
         title: "Al Aquas 4",
-        description:
-          "A powerful portrayal of the Kaaba at Masjid al-Haram, symbolizing unity, faith, and the sacred journey of pilgrimage.",
+        description: "",
         image: "/al_aquas/al_aquas_4.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
+        dimensions: "70 x 42 cm",
         year: "2023",
       },
+
       {
         id: "al_aquas_5",
         title: "Al Aquas 5",
-        description:
-          "A serene depiction of the Prophet’s Mosque in Madinah, highlighting its iconic green dome and peaceful spiritual atmosphere.",
+        description: "",
         image: "/al_aquas/al_aquas_5.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
+        dimensions: "70 x 42 cm",
         year: "2023",
       },
+
       {
         id: "al_aquas_6",
         title: "Al Aquas 6",
-        description:
-          "A serene depiction of the Prophet’s Mosque in Madinah, highlighting its iconic green dome and peaceful spiritual atmosphere.",
+        description: "",
         image: "/al_aquas/al_aquas_6.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2022",
+        dimensions: "70 x 42 cm",
+        year: "2023",
       },
+
       {
         id: "al_aquas_7",
         title: "Al Aquas 7",
-        description:
-          "A serene depiction of the Prophet’s Mosque in Madinah, highlighting its iconic green dome and peaceful spiritual atmosphere.",
+        description: "",
         image: "/al_aquas/al_aquas_7.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2021",
+        dimensions: "70 x 42 cm",
+        year: "2023",
       },
+
       {
         id: "al_aquas_8",
         title: "Al Aquas 8",
-        description:
-          "A powerful portrayal of the Kaaba at Masjid al-Haram, symbolizing unity, faith, and the sacred journey of pilgrimage.",
+        description: "",
         image: "/al_aquas/al_aquas_8.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
+        dimensions: "70 x 42 cm",
         year: "2023",
       },
+
       {
         id: "al_aquas_9",
         title: "Al Aquas 9",
-        description:
-          "A serene depiction of the Prophet’s Mosque in Madinah, highlighting its iconic green dome and peaceful spiritual atmosphere.",
+        description: "",
         image: "/al_aquas/al_aquas_9.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
+        dimensions: "90 x 40 cm",
         year: "2023",
       },
       {
         id: "al_aquas_10",
         title: "Al Aquas 10",
-        description:
-          "A serene depiction of the Prophet’s Mosque in Madinah, highlighting its iconic green dome and peaceful spiritual atmosphere.",
+        description: "",
         image: "/al_aquas/al_aquas_10.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2022",
+        dimensions: "90 x 40 cm",
+        year: "2023",
       },
+
       {
         id: "al_aquas_11",
         title: "Al Aquas 11",
-        description:
-          "A serene depiction of the Prophet’s Mosque in Madinah, highlighting its iconic green dome and peaceful spiritual atmosphere.",
+        description: "",
         image: "/al_aquas/al_aquas_11.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2021",
+        dimensions: "70 x 42 cm",
+        year: "2023",
       },
+
       {
         id: "al_aquas_12",
         title: "Al Aquas 12",
-        description:
-          "A powerful portrayal of the Kaaba at Masjid al-Haram, symbolizing unity, faith, and the sacred journey of pilgrimage.",
+        description: "",
         image: "/al_aquas/al_aquas_12.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2021",
+        dimensions: "70 x 42 cm",
+        year: "2023",
       },
+
       {
         id: "al_aquas_13",
         title: "Al Aquas 13",
-        description:
-          "A powerful portrayal of the Kaaba at Masjid al-Haram, symbolizing unity, faith, and the sacred journey of pilgrimage.",
+        description: "",
         image: "/al_aquas/al_aquas_13.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 X 42 cm",
-        year: "2021",
+        dimensions: "70 x 42 cm",
+        year: "2023",
       },
     ],
   },
