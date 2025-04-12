@@ -69,7 +69,8 @@ const albums = [
   {
     id: "hurufiaat",
     title: "Hurufiaat",
-    description: "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+    description:
+      "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
     itemCount: 7,
   },
@@ -78,7 +79,7 @@ const albums = [
     title: "Kufi Murabae",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
-    itemCount: 10 ,
+    itemCount: 10,
   },
   {
     id: "al_aquas",
@@ -86,7 +87,14 @@ const albums = [
     description:
       "A collection of sacred art capturing the beauty and spirituality of Al-Masjid an-Nabawi and Masjid al-Haram.",
     coverImage: "/al_aquas/al_aquas_1.png?height=600&width=800",
-    itemCount: 13,
+    itemCount: 14,
+  },
+  {
+    id: "collage",
+    title: "Collage",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/collage/collage-1.jpg?height=600&width=800",
+    itemCount: 8,
   },
   {
     id: "two_languages",
@@ -103,27 +111,13 @@ const albums = [
     coverImage: "/noqta/noqta_1.jpg?height=600&width=800",
     itemCount: 13,
   },
-  {
-    id: "watercolor",
-    title: "Watercolor",
-    description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/watercolor/watercolor-1.jpg?height=600&width=800",
-    itemCount: 6,
-  },
+
   {
     id: "tafasil",
     title: "Tafasil",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/tafasil/tafasil-1.jpg?height=600&width=800",
     itemCount: 14,
-  },
-
-  {
-    id: "rua",
-    title: "Rua",
-    description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/rua/rua-1.jpg?height=600&width=800",
-    itemCount: 8,
   },
   {
     id: "muhawir",
@@ -133,10 +127,17 @@ const albums = [
     itemCount: 3,
   },
   {
-    id:"collage",
-    title: "Collage",
+    id: "watercolor",
+    title: "Watercolor",
     description: "Acrylic and oil paintings on various subjects",
-    coverImage: "/collage/collage-1.jpg?height=600&width=800",
+    coverImage: "/watercolor/watercolor-1.jpg?height=600&width=800",
+    itemCount: 6,
+  },
+  {
+    id: "rua",
+    title: "Rua",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/rua/rua-1.jpg?height=600&width=800",
     itemCount: 8,
-  }
+  },
 ];

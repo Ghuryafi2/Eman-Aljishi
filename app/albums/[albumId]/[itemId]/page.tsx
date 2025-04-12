@@ -105,7 +105,7 @@ const albums = [
     id: "labbaik",
     title: "Labbaik",
     description:
-      "Preliminary works, quick studies, and artistic explorations that capture moments of inspiration and technical practice.",
+      "From this blessed land of peace and mercy, inspired by the spiritual depth of Hajj and the divine call, I created a visual language that reflects the soul’s connection with God. Through the beauty of calligraphy and modern art.",
     items: [
       {
         id: "door-of-the-kaaba",
@@ -371,7 +371,7 @@ const albums = [
         description: "",
         image: "/al_aquas/al_aquas_11.png?height=600&width=800",
         medium: "Acrylic colors, inks, photograph, collage on wood.",
-        dimensions: "70 x 42 cm",
+        dimensions: "90 x 40 cm",
         year: "2023",
       },
 
@@ -394,6 +394,16 @@ const albums = [
         dimensions: "70 x 42 cm",
         year: "2023",
       },
+      {
+        id: "al_aquas_14",
+        title: "Al Aquas 14",
+        description: "",
+        image: "/al_aquas/al_aquas_14.png?height=600&width=800",
+        medium: "Acrylic colors, inks, photograph, collage on wood.",
+        dimensions: "70 x 42 cm",
+        year: "2023",
+      }
+      
     ],
   },
   {
