@@ -386,19 +386,28 @@ const albums = [
         medium: "Digital Painting",
         year: "2022",
       },
+      {
+        id: "two_languages_5",
+        title: "The Ancient Library",
+        description:
+          "Interior scene of a vast magical library with impossible architecture and floating books.",
+        image: "/two_languages/two_languages_5.jpg?height=600&width=800",
+        medium: "Digital Painting",
+        year: "2022",
+      },
     ],
   },
   {
     id: "hurufiaat",
     title: "Hurufiaat",
     description:
-      "A collection of sacred art capturing the beauty and spirituality of Al-Masjid an-Nabawi and Masjid al-Haram.",
+      "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     items: [
       {
         id: "hurufiaat_1",
         title: "Mooj",
         description:
-          "A series of quick gesture drawings exploring human form and movement.",
+          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
         image: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -406,19 +415,20 @@ const albums = [
       },
       {
         id: "hurufiaat_2",
-        title: "Tanagom",
+        title: "Washraqt Alard",
         description:
-          "A series of quick gesture drawings exploring human form and movement.",
+          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
         image: "/hurufiaat/hurufiaat_2.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
-        year: "2023",
+        year: "2024",
       },
+
       {
         id: "hurufiaat_3",
         title: "Azharat",
         description:
-          "A series of quick gesture drawings exploring human form and movement.",
+          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
         image: "/hurufiaat/hurufiaat_3.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -428,9 +438,19 @@ const albums = [
         id: "hurufiaat_4",
         title: "Asala",
         description:
-          "A series of quick gesture drawings exploring human form and movement.",
+          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
         image: "/hurufiaat/hurufiaat_4.jpg?height=600&width=800",
         medium: "Acrylic colors , inks , fabrics , collage , paper on canvas",
+        dimensions: "100 x 100 cm",
+        year: "2023",
+      },
+      {
+        id: "hurufiaat_5",
+        title: "Tanagom",
+        description:
+          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+        image: "/hurufiaat/hurufiaat_5.jpg?height=600&width=800",
+        medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
         year: "2023",
       },
@@ -438,7 +458,7 @@ const albums = [
         id: "hurufiaat_6",
         title: "Shorooq",
         description:
-          "A series of quick gesture drawings exploring human form and movement.",
+          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
         image: "/hurufiaat/hurufiaat_6.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -446,9 +466,9 @@ const albums = [
       },
       {
         id: "hurufiaat_7",
-        title: "Figure Studies",
+        title: "Huruf Min Nur",
         description:
-          "A series of quick gesture drawings exploring human form and movement.",
+          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
         image: "/hurufiaat/hurufiaat_7.jpg?height=600&width=800",
         medium: "Acrylic colors , inks , fabrics , collage , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -584,7 +604,7 @@ const albums = [
         description:
           "The letters in Thuluth script are interwoven with the phrase Enter it in peace & safe in addition to the word Ya Rab written in square Kufic script, all set in a black-and-white space. Light and darkness intertwine, with the addition of gold leaf. ",
         image: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
-        medium: "Acrylic , gold paper , pastes",
+        medium: "Acrylic , gold paper , pastes on canvas ",
         dimensions: "150 x 150 cm",
         year: "2023",
       },
@@ -594,7 +614,7 @@ const albums = [
         description:
           "Letters in Thuluth script interwined with word Al-Rahman in square Kufic script in black and white space.",
         image: "/tanaqud/tanaqud_2.jpg?height=600&width=800",
-        medium: "Acrylic , gold paper , pastes",
+        medium: "Acrylic , gold paper , pastes on canvas",
         dimensions: "150 x 150 cm",
         year: "2023",
       },
@@ -604,7 +624,7 @@ const albums = [
         description:
           "Intertwined letters with the word Peace in a black-and-white space, intertwined with light and darkness, and the words are adorned with gold leaf. There is no importance to peace in life.",
         image: "/tanaqud/tanaqud_3.jpg?height=600&width=800",
-        medium: "Acrylic , gold paper , pastes",
+        medium: "Acrylic , gold paper , pastes on canvas",
         dimensions: "150 x 150 cm",
         year: "2023",
       },
@@ -614,7 +634,7 @@ const albums = [
         description:
           "The word Al-Rahman Al-Raheem interwoven with Thuluth script letters set against a black and white space.",
         image: "/tanaqud/tanaqud_4.jpg?height=600&width=800",
-        medium: "Acrylic colors , gold paper , pastes",
+        medium: "Acrylic colors , gold paper , pastes on canvas",
         dimensions: "120 x 100 cm",
         year: "2023",
       },
@@ -624,7 +644,7 @@ const albums = [
         description:
           "Thuluth script letters square Kufic script, set in a black-and-white space. Light and darkness flow through the composition, with the words adorned in gold leaf.",
         image: "/tanaqud/tanaqud_5.jpg?height=600&width=800",
-        medium: "Acrylic colors , gold paper , pastes",
+        medium: "Acrylic colors , gold paper , pastes on canvas",
         dimensions: "120 x 100 cm",
         year: "2023",
       },
@@ -634,7 +654,7 @@ const albums = [
         description:
           "Arabic letters in Thuluth script interwoven with the word Al-Kareem in square Kufic script, set in a black-and-white space. It is permeated by light and darkness, with the words adorned with gold leaf. ",
         image: "/tanaqud/tanaqud_6.jpg?height=600&width=800",
-        medium: "Acrylic , gold paper , pastes",
+        medium: "Acrylic , gold paper , pastes on canvas",
         dimensions: "150 x 100 cm",
         year: "2023",
       },
@@ -644,7 +664,7 @@ const albums = [
         description:
           "Arabic letters in Diwani script intertwined with the word Peace in Kufic square script, set against a black-and-white backdrop. Light and darkness intertwine, with areas pulsating with color, texture, and interwoven lines.",
         image: "/tanaqud/tanaqud_7.jpg?height=600&width=800",
-        medium: "Acrylic , gold paper , pastes",
+        medium: "Acrylic , gold paper , pastes on canvas",
         dimensions: "150 x 100 cm",
         year: "2023",
       },
@@ -654,7 +674,7 @@ const albums = [
         description:
           "Interwoven Diwani script letters and words with the word Al-Salam in square kufic script, set against a black and white space, where light and darkness interwine.",
         image: "/tanaqud/tanaqud_8.jpg?height=600&width=800",
-        medium: "Acrylic colors , pastes",
+        medium: "Acrylic colors , pastes on canvas",
         dimensions: "50 x 50 cm",
         year: "2023",
       },
@@ -664,7 +684,7 @@ const albums = [
         description:
           "Arabic letters in Diwani script intertwined with the word Peace in Kufic square script, set against a black-and-white backdrop. Light and darkness intertwine, with areas pulsating with color, texture, and interwoven lines.",
         image: "/tanaqud/tanaqud_9.jpg?height=600&width=800",
-        medium: "Acrylic colors , pastes",
+        medium: "Acrylic colors , pastes on canvas",
         dimensions: "50 x 50 cm",
         year: "2023",
       },
@@ -674,7 +694,7 @@ const albums = [
         description:
           "Scattered paper scraps with Diwani script, square Kufic script and freehand calligraphy and Arabic words.",
         image: "/tanaqud/tanaqud_10.jpg?height=600&width=800",
-        medium: "Acrylic colors , pastes",
+        medium: "Acrylic colors , pastes on canvas",
         dimensions: "70 x 40 cm",
         year: "2023",
       },
@@ -684,7 +704,7 @@ const albums = [
         description:
           "Thuluth script letters with the word Al-Salam in Square Kufic script, set in a black-and-white space. Light and darkness flow through the composition, with the words adorned in gold leaf.",
         image: "/tanaqud/tanaqud_11.jpg?height=600&width=800",
-        medium: "Acrylic colors , pastes",
+        medium: "Acrylic colors , pastes on canvas",
         dimensions: "70 x 40 cm",
         year: "2023",
       },
@@ -694,7 +714,7 @@ const albums = [
         description:
           "interwoven Arabic Thuluth script letters with Al-Basmala in square Kufic script, set against a black and white space, where light and darkness interwine.",
         image: "/tanaqud/tanaqud_12.jpg?height=600&width=800",
-        medium: "Acrylic colors , pastes",
+        medium: "Acrylic colors , pastes on canvas",
         dimensions: "70 x 40 cm",
         year: "2023",
       },
@@ -708,111 +728,111 @@ const albums = [
     items: [
       {
         id: "kufi_murabae-1",
-        title: "Kufi Murabae-1",
+        title: "Bisamla 1-1",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2025",
       },
 
       {
         id: "kufi_murabae-2",
-        title: "Kufi Murabae-2",
+        title: "Bisamla 1-2",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-2.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2025",
       },
 
       {
         id: "kufi_murabae-3",
-        title: "Kufi Murabae-3",
+        title: "Bisamla 1-3",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-3.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2025",
       },
 
       {
         id: "kufi_murabae-4",
-        title: "Kufi Murabae-4",
+        title: "Bisamla 1-4",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-4.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2025",
       },
 
       {
         id: "kufi_murabae-5",
-        title: "Kufi Murabae-5",
+        title: "Bisamla 2-1",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-5.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "90 x 90 cm",
+        year: "2025",
       },
 
       {
         id: "kufi_murabae-6",
-        title: "Kufi Murabae-6",
+        title: "Bisamla 2-2",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-6.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2020",
       },
 
       {
         id: "kufi_murabae-7",
-        title: "Kufi Murabae-7",
+        title: "Bisamla 2-3",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-7.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2020",
       },
 
       {
         id: "kufi_murabae-8",
-        title: "Kufi Murabae-8",
+        title: "Bisamla 2-4",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-8.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2020",
       },
 
       {
         id: "kufi_murabae-9",
-        title: "Kufi Murabae-9",
+        title: "Bisamla 2-5",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-9.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2020",
       },
       {
         id: "kufi_murabae-10",
-        title: "Kufi Murabae-10",
+        title: "Bisamla 2-6",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-10.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2020",
       },
     ],
   },
@@ -828,118 +848,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/watercolor/watercolor-1.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-10",
-        title: "Watercolor-10",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-10.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-11",
-        title: "Watercolor-11",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-11.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-12",
-        title: "Watercolor-12",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-12.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-13",
-        title: "Watercolor-13",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-13.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-14",
-        title: "Watercolor-14",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-14.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-15",
-        title: "Watercolor-15",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-15.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-16",
-        title: "Watercolor-16",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-16.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-17",
-        title: "Watercolor-17",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-17.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-18",
-        title: "Watercolor-18",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-18.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-19",
-        title: "Watercolor-19",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-19.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "water color in paper",
+        dimensions: "30 x 25 cm",
         year: "2020",
       },
 
@@ -949,118 +859,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/watercolor/watercolor-2.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-20",
-        title: "Watercolor-20",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-20.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-21",
-        title: "Watercolor-21",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-21.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-22",
-        title: "Watercolor-22",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-22.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-23",
-        title: "Watercolor-23",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-23.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-24",
-        title: "Watercolor-24",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-24.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-25",
-        title: "Watercolor-25",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-25.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-26",
-        title: "Watercolor-26",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-26.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-27",
-        title: "Watercolor-27",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-27.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-28",
-        title: "Watercolor-28",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-28.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-29",
-        title: "Watercolor-29",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-29.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "water color in paper",
+        dimensions: "30 x 25 cm",
         year: "2020",
       },
 
@@ -1070,8 +870,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/watercolor/watercolor-3.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "water color in paper",
+        dimensions: "30 x 25 cm",
         year: "2020",
       },
 
@@ -1081,8 +881,8 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/watercolor/watercolor-4.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
+        medium: "water color in paper",
+        dimensions: "30 x 25 cm",
         year: "2020",
       },
 
@@ -1092,9 +892,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/watercolor/watercolor-5.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
+        medium: "water color in paper",
+        dimensions: "30 x 25 cm",
+        year: "2018",
       },
 
       {
@@ -1103,42 +903,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/watercolor/watercolor-6.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-7",
-        title: "Watercolor-7",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-7.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-8",
-        title: "Watercolor-8",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-8.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
-      },
-
-      {
-        id: "watercolor-9",
-        title: "Watercolor-9",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/watercolor/watercolor-9.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2020",
+        medium: "water color in paper",
+        dimensions: "30 x 25 cm",
+        year: "2018",
       },
     ],
   },
@@ -1315,119 +1082,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-1.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-10",
-        title: "Rua-10",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-10.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-11",
-        title: "Rua-11",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-11.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-12",
-        title: "Rua-12",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-12.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-13",
-        title: "Rua-13",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-13.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-14",
-        title: "Rua-14",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-14.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-15",
-        title: "Rua-15",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-15.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-16",
-        title: "Rua-16",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-16.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-17",
-        title: "Rua-17",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-17.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-18",
-        title: "Rua-18",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-18.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-19",
-        title: "Rua-19",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-19.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
       },
 
       {
@@ -1436,119 +1093,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-2.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-20",
-        title: "Rua-20",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-20.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-21",
-        title: "Rua-21",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-21.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-22",
-        title: "Rua-22",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-22.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-23",
-        title: "Rua-23",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-23.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-24",
-        title: "Rua-24",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-24.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-25",
-        title: "Rua-25",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-25.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-26",
-        title: "Rua-26",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-26.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-27",
-        title: "Rua-27",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-27.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-28",
-        title: "Rua-28",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-28.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-29",
-        title: "Rua-29",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-29.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
       },
 
       {
@@ -1557,20 +1104,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-3.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
-      },
-
-      {
-        id: "rua-30",
-        title: "Rua-30",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-30.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
       },
 
       {
@@ -1579,9 +1115,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-4.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
       },
 
       {
@@ -1590,9 +1126,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-5.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
       },
 
       {
@@ -1601,9 +1137,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-6.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
       },
 
       {
@@ -1612,9 +1148,9 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-7.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
       },
 
       {
@@ -1623,20 +1159,144 @@ const albums = [
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-8.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        medium: "Acrylic colors, pastes, wood on canvas",
+        dimensions: "30 x 25 cm",
+        year: "2010",
+      },
+    ],
+  },
+  {
+    id: "muhawir",
+    title: "Muhawir",
+    description:
+      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
+    items: [
+      {
+        id: "muhawir-1",
+        title: "Bawaabat Alruwh",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/muhawir/muhawir-1.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, fabrics on canvas",
+        dimensions: "70 x 60 cm",
+        year: "2022",
       },
 
       {
-        id: "rua-9",
-        title: "Rua-9",
+        id: "muhawir-2",
+        title: "Aqwas Alnuwr",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
-        image: "/rua/rua-9.jpg?height=600&width=800",
-        medium: "Digital Painting",
-        dimensions: "60 x 80 cm",
-        year: "2018",
+        image: "/muhawir/muhawir-2.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, fabrics on canvas",
+        dimensions: "70 x 60 cm",
+        year: "2022",
+      },
+
+      {
+        id: "muhawir-3",
+        title: "Bayn Al'aqwas",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/muhawir/muhawir-3.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, fabrics on canvas",
+        dimensions: "70 x 60 cm",
+        year: "2022",
+      },
+    ],
+  },
+  {
+    id: "kulaj",
+    title: "Kulaj",
+    description:
+      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
+    items: [
+      {
+        id: "kulaj-1",
+        title: "Kulaj-1",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-1.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+
+      {
+        id: "kulaj-2",
+        title: "Kulaj-2",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-2.jpg?height=600&width=800",
+        medium: "Acrylic colors, inks, colag on paper",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+
+      {
+        id: "kulaj-3",
+        title: "Kulaj-3",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-3.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, colag, on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+
+      {
+        id: "kulaj-4",
+        title: "Kulaj-4",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-4.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, colag, on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+
+      {
+        id: "kulaj-5",
+        title: "Kulaj-5",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-5.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, colag, on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+
+      {
+        id: "kulaj-6",
+        title: "Kulaj-6",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-6.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, colag, on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+
+      {
+        id: "kulaj-7",
+        title: "Kulaj-7",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-7.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, colag, on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+
+      {
+        id: "kulaj-8",
+        title: "Kulaj-8",
+        description:
+          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        image: "/kulaj/kulaj-8.jpg?height=600&width=800",
+        medium: "Acrylic colors, pastes, colag, on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2021",
       },
     ],
   },

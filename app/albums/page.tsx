@@ -69,16 +69,16 @@ const albums = [
   {
     id: "hurufiaat",
     title: "Hurufiaat",
-    description: "Experimental works combining different techniques",
+    description: "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
-    itemCount: 6,
+    itemCount: 7,
   },
   {
     id: "kufi_murabae",
     title: "Kufi Murabae",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
-    itemCount: 10,
+    itemCount: 10 ,
   },
   {
     id: "al_aquas",
@@ -108,7 +108,7 @@ const albums = [
     title: "Watercolor",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/watercolor/watercolor-1.jpg?height=600&width=800",
-    itemCount: 30,
+    itemCount: 6,
   },
   {
     id: "tafasil",
@@ -123,6 +123,20 @@ const albums = [
     title: "Rua",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/rua/rua-1.jpg?height=600&width=800",
-    itemCount: 30,
+    itemCount: 8,
   },
+  {
+    id: "muhawir",
+    title: "Muhawir",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/muhawir/muhawir-1.jpg?height=600&width=800",
+    itemCount: 3,
+  },
+  {
+    id:"kulaj",
+    title: "Kulaj",
+    description: "Acrylic and oil paintings on various subjects",
+    coverImage: "/kulaj/kulaj-1.jpg?height=600&width=800",
+    itemCount: 8,
+  }
 ];
