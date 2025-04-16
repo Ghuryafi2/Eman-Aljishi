@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-6 heading-taupe">
-              About My Work
+              About Me
             </h2>
             <p className="text-taupe mb-8">
               Saudi visual artist in the field of visual arts. She began her
@@ -78,7 +78,7 @@ export default function Home() {
 const featuredAlbums = [
   {
     id: "tanaqud",
-    title: "Iiltiqa",
+    title: "Iltiqa",
     description:
       "Calligraphy meets light and dark in a spiritual journey through divine names.",
     coverImage: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
@@ -93,15 +93,15 @@ const featuredAlbums = [
     itemCount: 14,
   },
   {
-    id: "hurufiaat",
-    title: "Hurufiaat",
+    id: "hurufiat",
+    title: "Hurufiat",
     description: "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
     itemCount: 7,
   },
   {
-    id: "kufi_murabae",
-    title: "Kufi Murabae",
+    id: "kufi_muraba",
+    title: "Kufi Muraba",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
     itemCount: 10 ,

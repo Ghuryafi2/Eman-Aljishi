@@ -14,7 +14,7 @@ const Navbar = () => {
         alt="Eman"
       />
 
-      <nav className="hidden md:flex gap-6 text-white items-center">
+      <nav className="hidden md:flex gap-6 text-white items-center ">
         <Link href="/about" className="hover:text-cream transition-colors">
           About Me
         </Link>

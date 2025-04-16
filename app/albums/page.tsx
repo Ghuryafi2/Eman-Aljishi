@@ -52,7 +52,7 @@ export default function AlbumsPage() {
 const albums = [
   {
     id: "tanaqud",
-    title: "Iiltiqa",
+    title: "Iltiqa",
     description:
       "Calligraphy meets light and dark in a spiritual journey through divine names.",
     coverImage: "/tanaqud/tanaqud_1.jpg?height=600&width=800",
@@ -67,16 +67,16 @@ const albums = [
     itemCount: 14,
   },
   {
-    id: "hurufiaat",
-    title: "Hurufiaat",
+    id: "hurufiat",
+    title: "Hurufiat",
     description:
       "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
     itemCount: 7,
   },
   {
-    id: "kufi_murabae",
-    title: "Kufi Murabae",
+    id: "kufi_muraba",
+    title: "Kufi Muraba",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
     itemCount: 10,
@@ -103,7 +103,6 @@ const albums = [
     coverImage: "/two_languages/two_languages_1.jpg?height=600&width=800",
     itemCount: 4,
   },
-
   {
     id: "noqta",
     title: "Noqta",
@@ -111,7 +110,6 @@ const albums = [
     coverImage: "/noqta/noqta_1.jpg?height=600&width=800",
     itemCount: 13,
   },
-
   {
     id: "tafasil",
     title: "Tafasil",
@@ -120,8 +118,8 @@ const albums = [
     itemCount: 14,
   },
   {
-    id: "muhawir",
-    title: "Muhawir",
+    id: "mahawir",
+    title: "Mahawir",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/muhawir/muhawir-1.jpg?height=600&width=800",
     itemCount: 3,
@@ -134,8 +132,8 @@ const albums = [
     itemCount: 6,
   },
   {
-    id: "rua",
-    title: "Rua",
+    id: "rua'a",
+    title: "Rua'a",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/rua/rua-1.jpg?height=600&width=800",
     itemCount: 8,

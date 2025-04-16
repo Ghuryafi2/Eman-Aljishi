@@ -128,8 +128,8 @@ const albums = [
         year: "2020",
       },
       {
-        id: "alrawdat-alsharifa",
-        title: "Alrawdat Alsharifa",
+        id: "alrawda-alsharifa",
+        title: "Alrawda Alsharifa",
         description:
           "A series of serene compositions reflecting the tranquility, reverence, and sacred light within Al-Rawda Al-Sharifa.",
         image: "/labbaik/labbaik_3.jpg?height=1200&width=900",
@@ -171,8 +171,8 @@ const albums = [
         year: "2020",
       },
       {
-        id: "almasjid-alnabawiu",
-        title: "Almasjid Alnabawiu",
+        id: "almasjid-alnabawi",
+        title: "Almasjid Alnabawi",
         description:
           "A series of contemplative impressions capturing the light, rhythm, and sacred serenity of Al-Masjid Al-Nabawi.",
         image: "/labbaik/labbaik_7.jpg?height=1200&width=900",
@@ -215,8 +215,8 @@ const albums = [
         year: "2020",
       },
       {
-        id: "sumuu",
-        title: "Sumuu",
+        id: "somow",
+        title: "Somow",
         description:
           "A collection of sketches reflecting the grandeur and elevation of spirit, captured in the essence of Sumuu.",
         image: "/labbaik/labbaik_11.jpg?height=600&width=800",
@@ -402,8 +402,7 @@ const albums = [
         medium: "Acrylic colors, inks, photograph, collage on wood.",
         dimensions: "70 x 42 cm",
         year: "2023",
-      }
-      
+      },
     ],
   },
   {
@@ -464,8 +463,8 @@ const albums = [
     ],
   },
   {
-    id: "hurufiaat",
-    title: "Hurufiaat",
+    id: "hurufiat",
+    title: "Hurufiat",
     description:
       "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     items: [
@@ -660,7 +659,7 @@ const albums = [
   },
   {
     id: "tanaqud",
-    title: "Iiltiqa",
+    title: "Iltiqa",
     description:
       "A fusion of Arabic calligraphy and contrast, this collection explores divine names and spiritual themes through light, darkness, and gold.",
     items: [
@@ -776,7 +775,7 @@ const albums = [
       },
       {
         id: "tanaqud_12",
-        title: "Khotot & Khalimat",
+        title: "Khotot & Kalimat",
         description:
           "interwoven Arabic Thuluth script letters with Al-Basmala in square Kufic script, set against a black and white space, where light and darkness interwine.",
         image: "/tanaqud/tanaqud_12.jpg?height=600&width=800",
@@ -787,14 +786,14 @@ const albums = [
     ],
   },
   {
-    id: "kufi_murabae",
-    title: "Kufi Murabae",
+    id: "kufi_muraba",
+    title: "Kufi Muraba",
     description:
       "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
     items: [
       {
         id: "kufi_murabae-1",
-        title: "Bisamla 1-1",
+        title: "Basmalah 1-1",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
@@ -805,7 +804,7 @@ const albums = [
 
       {
         id: "kufi_murabae-2",
-        title: "Bisamla 1-2",
+        title: "Basmalah 1-2",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-2.jpg?height=600&width=800",
@@ -816,7 +815,7 @@ const albums = [
 
       {
         id: "kufi_murabae-3",
-        title: "Bisamla 1-3",
+        title: "Basmalah 1-3",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-3.jpg?height=600&width=800",
@@ -827,7 +826,7 @@ const albums = [
 
       {
         id: "kufi_murabae-4",
-        title: "Bisamla 1-4",
+        title: "Basmalah 1-4",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-4.jpg?height=600&width=800",
@@ -838,7 +837,7 @@ const albums = [
 
       {
         id: "kufi_murabae-5",
-        title: "Bisamla 2-1",
+        title: "Basmalah 2-1",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-5.jpg?height=600&width=800",
@@ -849,7 +848,7 @@ const albums = [
 
       {
         id: "kufi_murabae-6",
-        title: "Bisamla 2-2",
+        title: "Basmalah 2-2",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-6.jpg?height=600&width=800",
@@ -860,7 +859,7 @@ const albums = [
 
       {
         id: "kufi_murabae-7",
-        title: "Bisamla 2-3",
+        title: "Basmalah 2-3",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-7.jpg?height=600&width=800",
@@ -871,7 +870,7 @@ const albums = [
 
       {
         id: "kufi_murabae-8",
-        title: "Bisamla 2-4",
+        title: "Basmalah 2-4",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-8.jpg?height=600&width=800",
@@ -882,7 +881,7 @@ const albums = [
 
       {
         id: "kufi_murabae-9",
-        title: "Bisamla 2-5",
+        title: "Basmalah 2-5",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-9.jpg?height=600&width=800",
@@ -892,7 +891,7 @@ const albums = [
       },
       {
         id: "kufi_murabae-10",
-        title: "Bisamla 2-6",
+        title: "Basmalah 2-6",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/kufi_murabae/kufi_murabae-10.jpg?height=600&width=800",
@@ -1137,14 +1136,14 @@ const albums = [
     ],
   },
   {
-    id: "rua",
-    title: "Rua",
+    id: "rua'a",
+    title: "Rua'a",
     description:
       "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
     items: [
       {
-        id: "rua-1",
-        title: "Rua-1",
+        id: "rua'a-1",
+        title: "Rua'a-1",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-1.jpg?height=600&width=800",
@@ -1154,8 +1153,8 @@ const albums = [
       },
 
       {
-        id: "rua-2",
-        title: "Rua-2",
+        id: "rua'a-2",
+        title: "Rua'a-2",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-2.jpg?height=600&width=800",
@@ -1165,8 +1164,8 @@ const albums = [
       },
 
       {
-        id: "rua-3",
-        title: "Rua-3",
+        id: "rua'a-3",
+        title: "Rua'a-3",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-3.jpg?height=600&width=800",
@@ -1176,8 +1175,8 @@ const albums = [
       },
 
       {
-        id: "rua-4",
-        title: "Rua-4",
+        id: "rua'a-4",
+        title: "Rua'a-4",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-4.jpg?height=600&width=800",
@@ -1187,8 +1186,8 @@ const albums = [
       },
 
       {
-        id: "rua-5",
-        title: "Rua-5",
+        id: "rua'a-5",
+        title: "Rua'a-5",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-5.jpg?height=600&width=800",
@@ -1198,8 +1197,8 @@ const albums = [
       },
 
       {
-        id: "rua-6",
-        title: "Rua-6",
+        id: "rua'a-6",
+        title: "Rua'a-6",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-6.jpg?height=600&width=800",
@@ -1209,8 +1208,8 @@ const albums = [
       },
 
       {
-        id: "rua-7",
-        title: "Rua-7",
+        id: "rua'a-7",
+        title: "Rua'a-7",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-7.jpg?height=600&width=800",
@@ -1220,8 +1219,8 @@ const albums = [
       },
 
       {
-        id: "rua-8",
-        title: "Rua-8",
+        id: "rua'a-8",
+        title: "Rua'a-8",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/rua/rua-8.jpg?height=600&width=800",
@@ -1232,14 +1231,14 @@ const albums = [
     ],
   },
   {
-    id: "muhawir",
-    title: "Muhawir",
+    id: "mahawir",
+    title: "Mahawir",
     description:
       "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
     items: [
       {
         id: "muhawir-1",
-        title: "Bawaabat Alruwh",
+        title: "Bawabat Alrooh",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/muhawir/muhawir-1.jpg?height=600&width=800",
@@ -1250,7 +1249,7 @@ const albums = [
 
       {
         id: "muhawir-2",
-        title: "Aqwas Alnuwr",
+        title: "Aqwas Alnoor",
         description:
           "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
         image: "/muhawir/muhawir-2.jpg?height=600&width=800",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Eman Aljishi",
@@ -18,7 +19,7 @@ export default function RootLayout({
       <body>
         <main className="min-h-screen">{children}</main>
         <Footer></Footer>
-        </body>
+      </body>
     </html>
   );
 }
