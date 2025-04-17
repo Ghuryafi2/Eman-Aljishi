@@ -218,7 +218,7 @@ const albums = [
         id: "somow",
         title: "Somow",
         description:
-          "A collection of sketches reflecting the grandeur and elevation of spirit, captured in the essence of Sumuu.",
+          "A collection of sketches reflecting the grandeur and elevation of spirit, captured in the essence of Somow.",
         image: "/labbaik/labbaik_11.jpg?height=600&width=800",
         medium:
           "Acrylic colors, pastes, inks, gesso, photo, colag, paper on canvas",
@@ -408,14 +408,12 @@ const albums = [
   {
     id: "two_languages",
     title: "Two languages",
-    description:
-      "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
+    description: "",
     items: [
       {
         id: "two_languages_1",
         title: "Forest Guardian",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/two_languages/two_languages_1.jpg?height=600&width=800",
         medium: "Digital Painting",
         year: "2023",
@@ -423,8 +421,7 @@ const albums = [
       {
         id: "two_languages_2",
         title: "City of Dreams",
-        description:
-          "An imaginary cityscape floating among clouds, representing aspirations and the collective unconscious.",
+        description: "",
         image: "/two_languages/two_languages_2.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, wood, paper on canvas",
         dimensions: "100 x 100 cm",
@@ -433,8 +430,7 @@ const albums = [
       {
         id: "two_languages_3",
         title: "Harf Alsiyn",
-        description:
-          "Textured strokes of magenta and purple dance across a dark canvas, hinting at the form of the Arabic letter م. Areas of vibrant green and subtle gold-toned accents add depth and luminosity to the abstract composition.",
+        description: "",
         image: "/two_languages/two_languages_3.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, wood, paper on canvas",
         dimensions: "100 x 100 cm",
@@ -443,8 +439,7 @@ const albums = [
       {
         id: "two_languages_4",
         title: "Harf Alsiyn",
-        description:
-          "Interior scene of a vast magical library with impossible architecture and floating books.",
+        description: "",
         image: "/two_languages/two_languages_4.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, wood, paper on canvas",
         dimensions: "90 x 90 cm",
@@ -453,8 +448,7 @@ const albums = [
       {
         id: "two_languages_5",
         title: "The Ancient Library",
-        description:
-          "Interior scene of a vast magical library with impossible architecture and floating books.",
+        description: "",
         image: "/two_languages/two_languages_5.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, wood, paper on canvas",
         dimensions: "90 x 90 cm",
@@ -471,8 +465,7 @@ const albums = [
       {
         id: "hurufiaat_1",
         title: "Mooj",
-        description:
-          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+        description: "",
         image: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -481,8 +474,7 @@ const albums = [
       {
         id: "hurufiaat_2",
         title: "Washraqt Alard",
-        description:
-          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+        description: "",
         image: "/hurufiaat/hurufiaat_2.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -492,9 +484,7 @@ const albums = [
       {
         id: "hurufiaat_3",
         title: "Azharat",
-        description:
-          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
-        image: "/hurufiaat/hurufiaat_3.jpg?height=600&width=800",
+        description: "",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
         year: "2023",
@@ -502,8 +492,7 @@ const albums = [
       {
         id: "hurufiaat_4",
         title: "Asala",
-        description:
-          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+        description: "",
         image: "/hurufiaat/hurufiaat_4.jpg?height=600&width=800",
         medium: "Acrylic colors , inks , fabrics , collage , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -512,8 +501,7 @@ const albums = [
       {
         id: "hurufiaat_5",
         title: "Tanagom",
-        description:
-          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+        description: "",
         image: "/hurufiaat/hurufiaat_5.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -522,8 +510,7 @@ const albums = [
       {
         id: "hurufiaat_6",
         title: "Shorooq",
-        description:
-          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+        description: "",
         image: "/hurufiaat/hurufiaat_6.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -532,8 +519,7 @@ const albums = [
       {
         id: "hurufiaat_7",
         title: "Huruf Min Nur",
-        description:
-          "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+        description: "",
         image: "/hurufiaat/hurufiaat_7.jpg?height=600&width=800",
         medium: "Acrylic colors , inks , fabrics , collage , paper on canvas",
         dimensions: "100 x 100 cm",
@@ -550,8 +536,7 @@ const albums = [
       {
         id: "noqta_1",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_1.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -559,8 +544,7 @@ const albums = [
       {
         id: "noqta_3",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_3.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -568,8 +552,7 @@ const albums = [
       {
         id: "noqta_4",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_4.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -577,8 +560,7 @@ const albums = [
       {
         id: "noqta_5",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_5.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -586,8 +568,7 @@ const albums = [
       {
         id: "noqta_6",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_6.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -595,8 +576,7 @@ const albums = [
       {
         id: "noqta_7",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_7.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -604,8 +584,7 @@ const albums = [
       {
         id: "noqta_8",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_8.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -613,8 +592,7 @@ const albums = [
       {
         id: "noqta_9",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_9.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -631,8 +609,7 @@ const albums = [
       {
         id: "noqta_11",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_11.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -640,8 +617,7 @@ const albums = [
       {
         id: "noqta_12",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_12.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -649,8 +625,7 @@ const albums = [
       {
         id: "noqta_13",
         title: "Figure Studies",
-        description:
-          "A series of quick gesture drawings exploring human form and movement.",
+        description: "",
         image: "/noqta/noqta_13.jpg?height=600&width=800",
         medium: "Pencil on Paper",
         year: "2023",
@@ -794,8 +769,7 @@ const albums = [
       {
         id: "kufi_murabae-1",
         title: "Basmalah 1-1",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -805,8 +779,7 @@ const albums = [
       {
         id: "kufi_murabae-2",
         title: "Basmalah 1-2",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-2.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -816,8 +789,7 @@ const albums = [
       {
         id: "kufi_murabae-3",
         title: "Basmalah 1-3",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-3.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -827,8 +799,7 @@ const albums = [
       {
         id: "kufi_murabae-4",
         title: "Basmalah 1-4",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-4.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -838,8 +809,7 @@ const albums = [
       {
         id: "kufi_murabae-5",
         title: "Basmalah 2-1",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-5.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "90 x 90 cm",
@@ -849,8 +819,7 @@ const albums = [
       {
         id: "kufi_murabae-6",
         title: "Basmalah 2-2",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-6.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -860,8 +829,7 @@ const albums = [
       {
         id: "kufi_murabae-7",
         title: "Basmalah 2-3",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-7.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -871,8 +839,7 @@ const albums = [
       {
         id: "kufi_murabae-8",
         title: "Basmalah 2-4",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-8.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -882,8 +849,7 @@ const albums = [
       {
         id: "kufi_murabae-9",
         title: "Basmalah 2-5",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-9.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -892,8 +858,7 @@ const albums = [
       {
         id: "kufi_murabae-10",
         title: "Basmalah 2-6",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/kufi_murabae/kufi_murabae-10.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
@@ -910,8 +875,7 @@ const albums = [
       {
         id: "watercolor-1",
         title: "Watercolor-1",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/watercolor/watercolor-1.jpg?height=600&width=800",
         medium: "water color in paper",
         dimensions: "30 x 25 cm",
@@ -921,8 +885,7 @@ const albums = [
       {
         id: "watercolor-2",
         title: "Watercolor-2",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/watercolor/watercolor-2.jpg?height=600&width=800",
         medium: "water color in paper",
         dimensions: "30 x 25 cm",
@@ -932,8 +895,7 @@ const albums = [
       {
         id: "watercolor-3",
         title: "Watercolor-3",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/watercolor/watercolor-3.jpg?height=600&width=800",
         medium: "water color in paper",
         dimensions: "30 x 25 cm",
@@ -943,8 +905,7 @@ const albums = [
       {
         id: "watercolor-4",
         title: "Watercolor-4",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/watercolor/watercolor-4.jpg?height=600&width=800",
         medium: "water color in paper",
         dimensions: "30 x 25 cm",
@@ -954,8 +915,7 @@ const albums = [
       {
         id: "watercolor-5",
         title: "Watercolor-5",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/watercolor/watercolor-5.jpg?height=600&width=800",
         medium: "water color in paper",
         dimensions: "30 x 25 cm",
@@ -965,8 +925,7 @@ const albums = [
       {
         id: "watercolor-6",
         title: "Watercolor-6",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/watercolor/watercolor-6.jpg?height=600&width=800",
         medium: "water color in paper",
         dimensions: "30 x 25 cm",
@@ -983,8 +942,7 @@ const albums = [
       {
         id: "tafasil-1",
         title: "Tafasil-1",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-1.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "150 x 100 cm",
@@ -994,8 +952,7 @@ const albums = [
       {
         id: "tafasil-2",
         title: "Tafasil-2",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-2.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "100 x 100 cm",
@@ -1005,8 +962,7 @@ const albums = [
       {
         id: "tafasil-3",
         title: "Tafasil-3",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-3.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "100 x 100 cm",
@@ -1016,8 +972,7 @@ const albums = [
       {
         id: "tafasil-4",
         title: "Tafasil-4",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-4.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "100 x 100 cm",
@@ -1027,8 +982,7 @@ const albums = [
       {
         id: "tafasil-5",
         title: "Tafasil-5",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-5.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "100 x 100 cm",
@@ -1038,8 +992,7 @@ const albums = [
       {
         id: "tafasil-6",
         title: "Tafasil-6",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-6.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
         dimensions: "40 x 220 cm",
@@ -1049,8 +1002,7 @@ const albums = [
       {
         id: "tafasil-7",
         title: "Tafasil-7",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-7.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
         dimensions: "40 x 220 cm",
@@ -1060,8 +1012,7 @@ const albums = [
       {
         id: "tafasil-8",
         title: "Tafasil-8",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-8.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "100 x 100 cm",
@@ -1071,8 +1022,7 @@ const albums = [
       {
         id: "tafasil-9",
         title: "Tafasil-9",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-9.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "70 x 170 cm",
@@ -1082,8 +1032,7 @@ const albums = [
       {
         id: "tafasil-10",
         title: "Tafasil-10",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-10.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "70 x 170 cm",
@@ -1093,8 +1042,7 @@ const albums = [
       {
         id: "tafasil-11",
         title: "Tafasil-11",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-11.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "50 x 50 cm",
@@ -1104,8 +1052,7 @@ const albums = [
       {
         id: "tafasil-12",
         title: "Tafasil-12",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-12.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood, inks, collage, paper on canvas",
         dimensions: "50 x 50 cm",
@@ -1115,8 +1062,7 @@ const albums = [
       {
         id: "tafasil-13",
         title: "Tafasil-13",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-13.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
         dimensions: "70 x 70 cm",
@@ -1126,8 +1072,7 @@ const albums = [
       {
         id: "tafasil-14",
         title: "Tafasil-14",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/tafasil/tafasil-14.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, inks, collage, paper on canvas",
         dimensions: "70 x 70 cm",
@@ -1144,8 +1089,7 @@ const albums = [
       {
         id: "rua'a-1",
         title: "Rua'a-1",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-1.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1155,8 +1099,7 @@ const albums = [
       {
         id: "rua'a-2",
         title: "Rua'a-2",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-2.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1166,8 +1109,7 @@ const albums = [
       {
         id: "rua'a-3",
         title: "Rua'a-3",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-3.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1177,8 +1119,7 @@ const albums = [
       {
         id: "rua'a-4",
         title: "Rua'a-4",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-4.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1188,8 +1129,7 @@ const albums = [
       {
         id: "rua'a-5",
         title: "Rua'a-5",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-5.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1199,8 +1139,7 @@ const albums = [
       {
         id: "rua'a-6",
         title: "Rua'a-6",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-6.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1210,8 +1149,7 @@ const albums = [
       {
         id: "rua'a-7",
         title: "Rua'a-7",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-7.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1221,8 +1159,7 @@ const albums = [
       {
         id: "rua'a-8",
         title: "Rua'a-8",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/rua/rua-8.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, wood on canvas",
         dimensions: "30 x 25 cm",
@@ -1239,8 +1176,7 @@ const albums = [
       {
         id: "muhawir-1",
         title: "Bawabat Alrooh",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/muhawir/muhawir-1.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, fabrics on canvas",
         dimensions: "70 x 60 cm",
@@ -1250,8 +1186,7 @@ const albums = [
       {
         id: "muhawir-2",
         title: "Aqwas Alnoor",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/muhawir/muhawir-2.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, fabrics on canvas",
         dimensions: "150 x 100 cm",
@@ -1261,8 +1196,7 @@ const albums = [
       {
         id: "muhawir-3",
         title: "Bayn Al'aqwas",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/muhawir/muhawir-3.jpg?height=600&width=800",
         medium: "Acrylic colors, pastes, fabrics on canvas",
         dimensions: "120 x 120 cm",
@@ -1279,8 +1213,7 @@ const albums = [
       {
         id: "collage-1",
         title: "Collage-1",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-1.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
@@ -1290,8 +1223,7 @@ const albums = [
       {
         id: "collage-2",
         title: "Collage-2",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-2.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
@@ -1301,8 +1233,7 @@ const albums = [
       {
         id: "collage-3",
         title: "Collage-3",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-3.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
@@ -1312,8 +1243,7 @@ const albums = [
       {
         id: "collage-4",
         title: "Collage-4",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-4.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
@@ -1323,8 +1253,7 @@ const albums = [
       {
         id: "collage-5",
         title: "Collage-5",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-5.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
@@ -1334,8 +1263,7 @@ const albums = [
       {
         id: "collage-6",
         title: "Collage-6",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-6.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
@@ -1345,8 +1273,7 @@ const albums = [
       {
         id: "collage-7",
         title: "Collage-7",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-7.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
@@ -1356,8 +1283,7 @@ const albums = [
       {
         id: "collage-8",
         title: "Collage-8",
-        description:
-          "A mystical forest guardian protecting ancient trees. This piece explores the relationship between nature spirits and their environments.",
+        description: "",
         image: "/collage/collage-8.jpg?height=600&width=800",
         medium: "Acrylic colors, inks, colag on pape",
         dimensions: "40 x 40 cm",
