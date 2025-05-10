@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
@@ -15,9 +17,7 @@ export default function Home() {
       <section className="py-16 md:py-24 section-cream">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-6 heading-taupe">
-              About Me
-            </h2>
+            <h2 className="text-2xl font-bold mb-6 heading-taupe">About Me</h2>
             <p className="text-taupe mb-8">
               Saudi visual artist in the field of visual arts. She began her
               artistic career in 1994. She is one of the pioneers of
@@ -46,13 +46,23 @@ export default function Home() {
                 href={`/albums/${album.id}`}
                 className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl aspect-[4/3]"
               >
-                <Image
-                  src={album.coverImage || "/placeholder.svg"}
-                  alt={album.title}
-                  width={800}
-                  height={600}
-                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                />
+                <div
+                  className="aspect-[4/3] w-full overflow-hidden relative group"
+                  onContextMenu={(e) => e.preventDefault()}
+                >
+                  <Image
+                    src={album.coverImage || "/placeholder.svg"}
+                    alt={album.title}
+                    width={800}
+                    height={600}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 pointer-events-none select-none"
+                    draggable={false}
+                  />
+                  <div
+                    className="absolute inset-0 z-10"
+                    onContextMenu={(e) => e.preventDefault()}
+                  />
+                </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-taupe/90 to-transparent p-6 flex flex-col justify-end">
                   <h3 className="text-xl font-bold text-white">
                     {album.title}
@@ -95,7 +105,8 @@ const featuredAlbums = [
   {
     id: "hurufiat",
     title: "Hurufiat",
-    description: "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
+    description:
+      "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     coverImage: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
     itemCount: 7,
   },
@@ -104,6 +115,6 @@ const featuredAlbums = [
     title: "Kufi Muraba",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
-    itemCount: 10 ,
+    itemCount: 10,
   },
 ];

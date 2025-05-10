@@ -1,3 +1,6 @@
+'use client';
+
+
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -33,13 +36,21 @@ export default function AlbumPage({ params }: { params: { albumId: string } }) {
             href={`/albums/${params.albumId}/${item.id}`}
             className="group flex flex-col overflow-hidden rounded-lg shadow-md transition-all hover:shadow-xl bg-white"
           >
-            <div className="aspect-[4/3] w-full overflow-hidden">
+            <div
+              className="aspect-[4/3] w-full overflow-hidden relative group"
+              onContextMenu={(e) => e.preventDefault()}
+            >
               <Image
                 src={item.image || "/placeholder.svg"}
                 alt={item.title}
                 width={800}
                 height={600}
-                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 pointer-events-none select-none"
+                draggable={false}
+              />
+              <div
+                className="absolute inset-0 z-10"
+                onContextMenu={(e) => e.preventDefault()}
               />
             </div>
             <div className="flex flex-col flex-grow p-4 border-t border-cream">

@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -40,16 +42,25 @@ export default function ArtworkPage({
         </Link>
       </div>
       <div className="grid gap-8 lg:grid-cols-2">
-        <div className="overflow-hidden rounded-lg shadow-lg">
+        <div
+          className="overflow-hidden rounded-lg shadow-lg relative"
+          onContextMenu={(e) => e.preventDefault()}
+        >
           <Image
             src={artwork.image || "/placeholder.svg"}
             alt={artwork.title}
             width={1200}
             height={900}
-            className="h-auto w-full object-cover"
+            className="h-auto w-full object-cover pointer-events-none select-none"
             priority
+            draggable={false}
+          />
+          <div
+            className="absolute inset-0 z-10"
+            onContextMenu={(e) => e.preventDefault()}
           />
         </div>
+
         <div className="space-y-6">
           <div>
             <h1 className="text-3xl font-bold heading-taupe">

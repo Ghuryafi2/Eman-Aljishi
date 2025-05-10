@@ -1,3 +1,6 @@
+'use client';
+
+
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
@@ -28,13 +31,23 @@ export default function AlbumsPage() {
             href={`/albums/${album.id}`}
             className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl aspect-[4/3]"
           >
-            <Image
-              src={album.coverImage || "/placeholder.svg"}
-              alt={album.title}
-              width={800}
-              height={600}
-              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-            />
+            <div
+              className="aspect-[4/3] w-full overflow-hidden relative group"
+              onContextMenu={(e) => e.preventDefault()}
+            >
+              <Image
+                src={album.coverImage || "/placeholder.svg"}
+                alt={album.title}
+                width={800}
+                height={600}
+                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 pointer-events-none select-none"
+                draggable={false}
+              />
+              <div
+                className="absolute inset-0 z-10"
+                onContextMenu={(e) => e.preventDefault()}
+              />
+            </div>
             <div className="absolute inset-0 bg-gradient-to-t from-taupe/90 via-taupe/40 to-transparent p-6 flex flex-col justify-end">
               <h2 className="text-xl font-bold text-white">{album.title}</h2>
               <p className="text-sm text-white/90">{album.description}</p>
