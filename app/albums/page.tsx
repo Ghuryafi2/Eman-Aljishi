@@ -92,7 +92,7 @@ const albums = [
     title: "Kufi Muraba",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
-    itemCount: 10,
+    itemCount: 14,
   },
   {
     id: "al_aquas",

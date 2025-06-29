@@ -834,7 +834,7 @@ const albums = [
         image: "/kufi_murabae/kufi_murabae-6.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
-        year: "2020",
+        year: "2021",
       },
 
       {
@@ -844,7 +844,7 @@ const albums = [
         image: "/kufi_murabae/kufi_murabae-7.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
-        year: "2020",
+        year: "2021",
       },
 
       {
@@ -854,7 +854,7 @@ const albums = [
         image: "/kufi_murabae/kufi_murabae-8.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
-        year: "2020",
+        year: "2021",
       },
 
       {
@@ -864,7 +864,7 @@ const albums = [
         image: "/kufi_murabae/kufi_murabae-9.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
-        year: "2020",
+        year: "2021",
       },
       {
         id: "kufi_murabae-10",
@@ -873,7 +873,44 @@ const albums = [
         image: "/kufi_murabae/kufi_murabae-10.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
         dimensions: "40 x 40 cm",
-        year: "2020",
+        year: "2021",
+      },
+      {
+        id: "kufi_murabae-11",
+        title: "Basmalah 2-7",
+        description: "",
+        image: "/kufi_murabae/kufi_murabae-11.jpg?height=600&width=800",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2021",
+      },
+      {
+        id: "kufi_murabae-12",
+        title: "Basmalah 3-1",
+        description: "",
+        image: "/kufi_murabae/kufi_murabae-12.jpg?height=600&width=800",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2022",
+      },
+      {
+        id: "kufi_murabae-13",
+        title: "Basmalah 3-2",
+        description: "",
+        image: "/kufi_murabae/kufi_murabae-13.jpg?height=600&width=800",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2022",
+      },
+
+      {
+        id: "kufi_murabae-14",
+        title: "Basmalah 3-3",
+        description: "",
+        image: "/kufi_murabae/kufi_murabae-14.jpg?height=600&width=800",
+        medium: "Acrylic colors on canvas",
+        dimensions: "40 x 40 cm",
+        year: "2022",
       },
     ],
   },
