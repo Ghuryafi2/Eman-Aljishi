@@ -19,11 +19,11 @@ export default function RootLayout({
       <body>
         <main className="min-h-screen">{children}</main>
         <Footer></Footer>
-        <script
+        {/* <script
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "442fd6630961444893df8351b09a7f08"}'
-        ></script>
+        ></script> */}
         <script
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
