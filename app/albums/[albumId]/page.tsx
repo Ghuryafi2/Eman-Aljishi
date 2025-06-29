@@ -432,13 +432,22 @@ const albums = [
       "A vibrant blend of Arabic calligraphy and abstract art, evoking spirituality and cultural depth.",
     items: [
       {
-        id: "hurufiaat_1",
+        id: "hurufiaat_0",
         title: "Mooj",
         description: "",
-        image: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
+        image: "/hurufiaat/hurufiaat_0.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
         year: "2023",
+      },
+      {
+        id: "hurufiaat_1",
+        title: "Wa ashraqat",
+        description: "",
+        image: "/hurufiaat/hurufiaat_1.jpg?height=600&width=800",
+        medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
+        dimensions: "150 x 100 cm",
+        year: "2022",
       },
       {
         id: "hurufiaat_2",
@@ -454,6 +463,7 @@ const albums = [
         id: "hurufiaat_3",
         title: "Azharat",
         description: "",
+        image: "/hurufiaat/hurufiaat_3.jpg?height=600&width=800",
         medium: "Acrylic colors , pastes , fabrics , inks , paper on canvas",
         dimensions: "100 x 100 cm",
         year: "2023",
@@ -735,19 +745,28 @@ const albums = [
     description:
       "A collection of digital and traditional illustrations exploring fantasy themes, character designs, and narrative scenes. Each piece tells a story and invites viewers into imaginative worlds.",
     items: [
+    {
+        id: "kufi_murabae-0",
+        title: "Basmalah 1",
+        description: "",
+        image: "/kufi_murabae/kufi_murabae-0.jpg?height=600&width=800",
+        medium: "Acrylic colors on canvas",
+        dimensions: "90 x 90 cm",
+        year: "2025",
+      },
       {
         id: "kufi_murabae-1",
-        title: "Basmalah 1-1",
+        title: "Basmalah 2",
         description: "",
         image: "/kufi_murabae/kufi_murabae-1.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
-        dimensions: "40 x 40 cm",
+        dimensions: "90 x 90 cm", 
         year: "2025",
       },
 
       {
         id: "kufi_murabae-2",
-        title: "Basmalah 1-2",
+        title: "Basmalah 3-1",
         description: "",
         image: "/kufi_murabae/kufi_murabae-2.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -757,7 +776,7 @@ const albums = [
 
       {
         id: "kufi_murabae-3",
-        title: "Basmalah 1-3",
+        title: "Basmalah 3-2",
         description: "",
         image: "/kufi_murabae/kufi_murabae-3.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -767,7 +786,7 @@ const albums = [
 
       {
         id: "kufi_murabae-4",
-        title: "Basmalah 1-4",
+        title: "Basmalah 3-3",
         description: "",
         image: "/kufi_murabae/kufi_murabae-4.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -777,17 +796,17 @@ const albums = [
 
       {
         id: "kufi_murabae-5",
-        title: "Basmalah 2-1",
+        title: "Basmalah 3-4",
         description: "",
         image: "/kufi_murabae/kufi_murabae-5.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
-        dimensions: "90 x 90 cm",
+        dimensions: "40 x 40 cm",
         year: "2025",
       },
 
       {
         id: "kufi_murabae-6",
-        title: "Basmalah 2-2",
+        title: "Alquduws 1",
         description: "",
         image: "/kufi_murabae/kufi_murabae-6.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -797,7 +816,7 @@ const albums = [
 
       {
         id: "kufi_murabae-7",
-        title: "Basmalah 2-3",
+        title: "Alquduws 2",
         description: "",
         image: "/kufi_murabae/kufi_murabae-7.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -807,7 +826,7 @@ const albums = [
 
       {
         id: "kufi_murabae-8",
-        title: "Basmalah 2-4",
+        title: "Alquduws 3",
         description: "",
         image: "/kufi_murabae/kufi_murabae-8.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -817,7 +836,7 @@ const albums = [
 
       {
         id: "kufi_murabae-9",
-        title: "Basmalah 2-5",
+        title: "Alquduws 4",
         description: "",
         image: "/kufi_murabae/kufi_murabae-9.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -826,7 +845,7 @@ const albums = [
       },
       {
         id: "kufi_murabae-10",
-        title: "Basmalah 2-6",
+        title: "Alquduws 5",
         description: "",
         image: "/kufi_murabae/kufi_murabae-10.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -835,7 +854,7 @@ const albums = [
       },
       {
         id: "kufi_murabae-11",
-        title: "Basmalah 2-7",
+        title: "Alquduws 6",
         description: "",
         image: "/kufi_murabae/kufi_murabae-11.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
@@ -844,30 +863,30 @@ const albums = [
       },
       {
         id: "kufi_murabae-12",
-        title: "Basmalah 3-1",
+        title: "Kun Fayakun 1",
         description: "",
         image: "/kufi_murabae/kufi_murabae-12.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
-        dimensions: "40 x 40 cm",
+        dimensions: "50 x 50 cm",
         year: "2022",
       },
       {
         id: "kufi_murabae-13",
-        title: "Basmalah 3-2",
+        title: "Kun Fayakun 2",
         description: "",
         image: "/kufi_murabae/kufi_murabae-13.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
-        dimensions: "40 x 40 cm",
+        dimensions: "50 x 50 cm",
         year: "2022",
       },
 
       {
         id: "kufi_murabae-14",
-        title: "Basmalah 3-3",
+        title: "Kun Fayakun 3",
         description: "",
         image: "/kufi_murabae/kufi_murabae-14.jpg?height=600&width=800",
         medium: "Acrylic colors on canvas",
-        dimensions: "40 x 40 cm",
+        dimensions: "50 x 50 cm",
         year: "2022",
       },
     ],
