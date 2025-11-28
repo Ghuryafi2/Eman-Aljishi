@@ -1,5 +1,4 @@
-'use client';
-
+"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -114,7 +113,7 @@ const albums = [
     title: "Two languages",
     description: "Acrylic and oil paintings on various subjects",
     coverImage: "/two_languages/two_languages_1.jpg?height=600&width=800",
-    itemCount: 4,
+    itemCount: 5,
   },
   {
     id: "noqta",
